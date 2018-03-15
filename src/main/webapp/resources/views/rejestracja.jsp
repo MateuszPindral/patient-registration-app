@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Andrzej
@@ -11,6 +12,14 @@
     <title>Rejestracja</title>
 </head>
 <body>
+Lista wizyt:
+<ul>
+    <c:forEach items="${visits}" var="visit">
+        <li>${visit.doctor}</li>
+        <li>${visit.dayOfVisit}</li>
+        <li>${visit.hourOfVisit}</li>
+    </c:forEach>
+</ul>
 
 </body>
 </html>
