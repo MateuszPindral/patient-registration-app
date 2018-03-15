@@ -8,13 +8,14 @@ import pl.sda.patient_registration_app.type.DocSpecType;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
 public class VisitsRepository {
 
 
-    public static List<VisitDto> visits;
+    public static List<VisitDto> visits = new ArrayList<>();
 
     static {
         visits.add(VisitDto.builder()
