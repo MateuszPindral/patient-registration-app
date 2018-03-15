@@ -18,7 +18,7 @@ public class VisitDto {
 
     private LocalDate dayOfVisit;
     private LocalTime hourOfVisit;
-    private String doctor;
+    private DoctorDto doctor;
 
 
 
