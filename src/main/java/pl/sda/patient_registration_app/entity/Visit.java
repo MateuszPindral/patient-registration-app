@@ -2,9 +2,7 @@ package pl.sda.patient_registration_app.entity;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
@@ -17,10 +15,14 @@ import java.time.LocalTime;
 @Table(name = "visits")
 public class Visit {
 
-    @Column(name = "patient")
+    @Id
+    @GeneratedValue
+    private Long id;
+
+    @ManyToOne
     private Patient patient;
 
-    @Column(name = "doctor")
+    @ManyToOne
     private Doctor doctor;
 
     @Column(name = "date")
