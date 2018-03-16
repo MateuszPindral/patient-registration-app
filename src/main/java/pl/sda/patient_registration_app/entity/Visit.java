@@ -19,7 +19,7 @@ public class Visit {
     @GeneratedValue
     private Long id;
 
-    @ManyToOne
+    @ManyToOne //(cascade = CascadeType.ALL)
     private Patient patient;
 
     @ManyToOne
