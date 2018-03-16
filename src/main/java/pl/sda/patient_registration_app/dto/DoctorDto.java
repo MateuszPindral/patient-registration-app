@@ -11,8 +11,11 @@ import pl.sda.patient_registration_app.type.DocSpecType;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DoctorDto {
+
     private String name;
     private String lastName;
     private DocSpecType specialization;
     private Long id;
+    private String login;
+    private String password;
 }
