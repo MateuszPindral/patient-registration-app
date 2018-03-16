@@ -18,5 +18,6 @@ public class PatientDto {
     private String lastName;
     private Long id;
     private List<VisitDto> plannedVisits;
-
+    private String login;
+    private String password;
 }
