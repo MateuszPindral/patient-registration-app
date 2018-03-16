@@ -14,5 +14,5 @@ public class DoctorDto {
     private String name;
     private String lastName;
     private DocSpecType specialization;
-    private int id;
+    private Long id;
 }
