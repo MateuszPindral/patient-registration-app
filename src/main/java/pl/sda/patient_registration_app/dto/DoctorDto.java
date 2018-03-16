@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import pl.sda.patient_registration_app.type.DocSpecType;
 
+import java.util.List;
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -15,4 +17,5 @@ public class DoctorDto {
     private String lastName;
     private DocSpecType specialization;
     private Long id;
+    private List<VisitDto> visits;
 }
