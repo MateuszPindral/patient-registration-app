@@ -14,12 +14,9 @@ import java.util.List;
 @Builder
 public class PatientDto {
 
-
-
     private String name;
     private String lastName;
-    private int id;
-    List<VisitDto> plannedVisits;
-
+    private Long id;
+    private List<VisitDto> plannedVisits;
 
 }
