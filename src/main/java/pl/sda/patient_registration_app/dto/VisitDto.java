@@ -19,6 +19,7 @@ public class VisitDto {
     private LocalDate dayOfVisit;
     private LocalTime hourOfVisit;
     private DoctorDto doctor;
+    private PatientDto patient;
 
 
 
