@@ -14,20 +14,20 @@ public class DoctorsFinder {
 
     private DoctorsService doctorsService;
     private DoctorsRepository doctorsRepository;
-    private RegistrationFinder registrationFinder;
+    private UtilsService utilsService;
 
     @Autowired
-    public DoctorsFinder(DoctorsRepository doctorsRepository, RegistrationFinder registrationFinder, DoctorsService doctorsService, RegistrationFinder registrationFinder1) {
+    public DoctorsFinder(DoctorsRepository doctorsRepository, UtilsService utilsService, DoctorsService doctorsService) {
         this.doctorsRepository = doctorsRepository;
         this.doctorsService = doctorsService;
-        this.registrationFinder = registrationFinder1;
+        this.utilsService = utilsService;
     }
 
     @Transactional
     public List<DoctorDto> showAllDoctors() {
         doctorsService.fillDBwithDoctors();
         return doctorsRepository.findAll().stream()
-                .map(v -> registrationFinder.mapDoctorToDoctorDto(v))
+                .map(v -> utilsService.mapDoctorToDoctorDto(v))
                 .collect(Collectors.toList());
     }
 
