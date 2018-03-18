@@ -2,7 +2,10 @@ package pl.sda.patient_registration_app.bo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.sda.patient_registration_app.dto.DoctorDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
+import pl.sda.patient_registration_app.entity.Doctor;
+import pl.sda.patient_registration_app.entity.Visit;
 import pl.sda.patient_registration_app.repository.VisitsRepository;
 
 import javax.transaction.Transactional;
@@ -28,4 +31,16 @@ public class VisitsFinder {
                 .collect(Collectors.toList());
     }
 
+    private List<VisitDto> getVisitsByDoctor(DoctorDto doctorDto){
+        List<Visit> foundedDoctors = visitsRepository.findByDoctor(doctorDto);
+        return foundedDoctors.stream()
+                .map(v -> utilsService.mapVisitToVisitDto(v))
+                .collect(Collectors.toList());
+
+    }
+    private List<VisitDto> filterVisitsDtoByDoctor(List<VisitDto> visitsDto, DoctorDto doctorDto){
+        return visitsDto.stream()
+                .filter(v -> v.getDoctor().equals(doctorDto))
+                .collect(Collectors.toList());
+    }
 }

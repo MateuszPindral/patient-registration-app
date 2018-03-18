@@ -18,6 +18,6 @@ import java.util.List;
 public interface VisitsRepository extends JpaRepository<Visit,Long>{
 
 
-
+    List<Visit> findByDoctor(DoctorDto doctorDto);
 
 }
