@@ -13,6 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "users")
+
 public class User {
 
     @Column(name = "login")

@@ -33,7 +33,7 @@ public class RegistrationFinder {
                 .collect(Collectors.toList());
     }
 
-    private PatientDto mapPatientToPatientDto(Patient patient) {
+    public PatientDto mapPatientToPatientDto(Patient patient) {
         //List<VisitDto> visits = mapVisitsToVisitsDto(patient.getVisits());
         return PatientDto.builder()
                 .id(patient.getId())
@@ -43,7 +43,7 @@ public class RegistrationFinder {
                 .build();
     }
 
-    private DoctorDto mapDoctorToDoctorDto(Doctor doctor) {
+    public DoctorDto mapDoctorToDoctorDto(Doctor doctor) {
         //List<VisitDto> visit = mapVisitsToVisitsDto(doctor.getVisits());
         return DoctorDto.builder()
                 .id(doctor.getId())
@@ -54,7 +54,7 @@ public class RegistrationFinder {
                 .build();
     }
 
-    private VisitDto mapVisitToVisitDto(Visit visit) {
+    public VisitDto mapVisitToVisitDto(Visit visit) {
         return VisitDto.builder()
                 .patient(mapPatientToPatientDto(visit.getPatient()))
                 .doctor(mapDoctorToDoctorDto(visit.getDoctor()))
