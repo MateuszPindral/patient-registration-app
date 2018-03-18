@@ -17,7 +17,7 @@
 Specjalizacja:
 <select name="specType">
     <c:forEach items="${docSpecEnum}" var="spec">
-        <option value="${spec.name()}">${spec.name()}</option>
+        <option value="${spec.name()}">${spec.name}</option>
     </c:forEach>
 
 </select>
