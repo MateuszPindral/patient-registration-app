@@ -17,7 +17,8 @@ import java.util.List;
 @Repository
 public interface VisitsRepository extends JpaRepository<Visit,Long>{
 
+    List<Visit> findByDate(LocalDate date);
 
 
-
+    List<Visit> findByHour(LocalTime time);
 }
