@@ -22,5 +22,5 @@ public interface VisitsRepository extends JpaRepository<Visit,Long>{
     List<Visit> findByDoctor(DoctorDto doctorDto);
 
 
-    List<Visit> findByHour(LocalTime time);
+    List<Visit> findByTime(LocalTime time);
 }
