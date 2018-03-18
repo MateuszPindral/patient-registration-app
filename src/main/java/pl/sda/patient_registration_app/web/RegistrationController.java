@@ -4,6 +4,7 @@ package pl.sda.patient_registration_app.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import pl.sda.patient_registration_app.bo.RegistrationFinder;
 import pl.sda.patient_registration_app.bo.RegistrationService;
@@ -44,5 +45,10 @@ public class RegistrationController {
         //mav.addObject("visits", registrationFinder.showAllVisits());
         mav.addObject("docSpecEnum", convertSpecEnum());
         return mav;
+    }
+
+    @GetMapping("/rejestracja/specjalista")
+    public ModelAndView showDoctorsSchedule(@RequestParam("specType") String specName){
+        return null;
     }
 }
