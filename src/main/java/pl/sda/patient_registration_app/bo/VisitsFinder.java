@@ -1,6 +1,13 @@
 package pl.sda.patient_registration_app.bo;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.sda.patient_registration_app.dto.VisitDto;
+import pl.sda.patient_registration_app.repository.VisitsRepository;
+
+import javax.transaction.Transactional;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class VisitsFinder {
