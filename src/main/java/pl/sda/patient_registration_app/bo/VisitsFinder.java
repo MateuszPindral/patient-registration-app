@@ -14,15 +14,20 @@ public class VisitsFinder {
 
     private VisitsRepository visitsRepository;
     private UtilsService utilsService;
+    private VisitsService visitsService;
 
     @Autowired
-    public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService){
+    public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService, VisitsService visitsService){
         this.visitsRepository = visitsRepository;
         this.utilsService = utilsService;
+        this.visitsService = visitsService;
     }
 
     @Transactional
     public List<VisitDto> showAllVisits() {
+
+        visitsService.fillDBwithVisits();
+
         return visitsRepository.findAll().stream()
                 .map(v -> utilsService.mapVisitToVisitDto(v))
                 .collect(Collectors.toList());

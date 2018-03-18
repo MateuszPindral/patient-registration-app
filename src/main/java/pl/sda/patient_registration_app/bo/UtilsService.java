@@ -46,7 +46,6 @@ public class UtilsService {
 
     public VisitDto mapVisitToVisitDto(Visit visit) {
         return VisitDto.builder()
-                .patient(mapPatientToPatientDto(visit.getPatient()))
                 .doctor(mapDoctorToDoctorDto(visit.getDoctor()))
                 .dayOfVisit(visit.getDate())
                 .hourOfVisit(visit.getTime())

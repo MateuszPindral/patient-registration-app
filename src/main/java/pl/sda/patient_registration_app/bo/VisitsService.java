@@ -40,7 +40,7 @@ public class VisitsService {
 
     }
 
-        public void fillDBwithVisits() {
+    public void fillDBwithVisits() {
 
         Doctor doctor1 = new Doctor();
         Doctor doctor2 = new Doctor();
@@ -56,6 +56,9 @@ public class VisitsService {
         doctor3.setFirstName("Roman");
         doctor3.setLastName("Wusiacz");
 
+        doctorsRepository.save(doctor1);
+        doctorsRepository.save(doctor2);
+        doctorsRepository.save(doctor3);
 
         addVisit(LocalDate.of(2018, 6, 10), LocalTime.of(10, 0), doctor1);
         addVisit(LocalDate.of(2018, 6, 10), LocalTime.of(11, 0), doctor1);
