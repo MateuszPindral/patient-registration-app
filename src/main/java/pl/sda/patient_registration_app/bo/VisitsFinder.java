@@ -19,6 +19,7 @@ public class VisitsFinder {
     private VisitsRepository visitsRepository;
     private UtilsService utilsService;
     private VisitsService visitsService;
+    private boolean isFilled = false;
 
     @Autowired
     public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService, VisitsService visitsService){
@@ -30,7 +31,11 @@ public class VisitsFinder {
     @Transactional
     public List<VisitDto> showAllVisits() {
 
+        if(!isFilled){
+
         visitsService.fillDBwithVisits();
+        isFilled = true;
+        }
 
         return visitsRepository.findAll().stream()
                 .map(v -> utilsService.mapVisitToVisitDto(v))

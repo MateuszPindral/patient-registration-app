@@ -15,6 +15,7 @@ public class DoctorsFinder {
     private DoctorsService doctorsService;
     private DoctorsRepository doctorsRepository;
     private UtilsService utilsService;
+    private boolean isFilled = false;
 
     @Autowired
     public DoctorsFinder(DoctorsRepository doctorsRepository, UtilsService utilsService, DoctorsService doctorsService) {
@@ -25,7 +26,10 @@ public class DoctorsFinder {
 
     @Transactional
     public List<DoctorDto> showAllDoctors() {
-        doctorsService.fillDBwithDoctors();
+        if (!isFilled) {
+            doctorsService.fillDBwithDoctors();
+            isFilled = true;
+        }
         return doctorsRepository.findAll().stream()
                 .map(v -> utilsService.mapDoctorToDoctorDto(v))
                 .collect(Collectors.toList());
