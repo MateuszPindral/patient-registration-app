@@ -17,5 +17,7 @@ public class DoctorDto {
     private String lastName;
     private DocSpecType specialization;
     private Long id;
+    private String login;
+    private String password;
     private List<VisitDto> visits;
 }
