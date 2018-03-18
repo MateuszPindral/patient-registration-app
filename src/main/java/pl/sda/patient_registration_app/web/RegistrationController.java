@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 import pl.sda.patient_registration_app.bo.RegistrationFinder;
 import pl.sda.patient_registration_app.bo.RegistrationService;
+import pl.sda.patient_registration_app.type.DocSpecType;
 
 @Controller
 public class RegistrationController {
@@ -26,8 +27,8 @@ public class RegistrationController {
         registrationService.addVisits();
         ModelAndView mav = new ModelAndView("rejestracja");
 
-        mav.addObject("visits", registrationFinder.showAllVisits());
-
+        //mav.addObject("visits", registrationFinder.showAllVisits());
+        mav.addObject("docSpecEnum", DocSpecType.values());
         return mav;
     }
 }
