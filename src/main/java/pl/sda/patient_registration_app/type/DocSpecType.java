@@ -4,7 +4,8 @@ public enum DocSpecType {
 
     GYNECOLOGIST("ginekolog"),
     UROLOGIST("urolog"),
-    DENTIST("dentysta");
+    DENTIST("dentysta"),
+    HEMATOLOGIST("hematolog");
 
     private String name;
 
