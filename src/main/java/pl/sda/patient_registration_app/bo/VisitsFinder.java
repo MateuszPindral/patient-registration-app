@@ -23,7 +23,6 @@ public class VisitsFinder {
     private VisitsService visitsService;
 
     @Autowired
-    public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService) {
     public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService, VisitsService visitsService){
         this.visitsRepository = visitsRepository;
         this.utilsService = utilsService;
