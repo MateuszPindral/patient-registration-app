@@ -16,7 +16,7 @@ import java.time.LocalTime;
 public class Visit {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne //(cascade = CascadeType.ALL)
