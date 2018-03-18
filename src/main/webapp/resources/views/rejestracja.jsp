@@ -15,19 +15,21 @@
 <body>
 
 Specjalizacja:
-<select name="specType">
-    <c:forEach items="${docSpecEnum}" var="spec">
-        <option value="${spec}">${spec}</option>
-    </c:forEach>
-
-</select>
+<form action="rejestracja/specjalista" method="get">
+    <select name="specType">
+        <c:forEach items="${docSpecEnum}" var="spec">
+            <option value="${spec}">${spec}</option>
+        </c:forEach>
+    </select>
+    <input type="submit" value="wybierz">
+</form>
 
 <%--<ul>--%>
-    <%--<c:forEach items="${visits}" var="visit">--%>
-        <%--<li>${visit.doctor}</li>--%>
-        <%--<li>${visit.dayOfVisit}</li>--%>
-        <%--<li>${visit.hourOfVisit}</li>--%>
-    <%--</c:forEach>--%>
+<%--<c:forEach items="${visits}" var="visit">--%>
+<%--<li>${visit.doctor}</li>--%>
+<%--<li>${visit.dayOfVisit}</li>--%>
+<%--<li>${visit.hourOfVisit}</li>--%>
+<%--</c:forEach>--%>
 <%--</ul>--%>
 
 </body>
