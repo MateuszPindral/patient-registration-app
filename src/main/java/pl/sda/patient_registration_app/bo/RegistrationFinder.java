@@ -20,55 +20,7 @@ import java.util.stream.Collectors;
 @Service
 public class RegistrationFinder {
 
-    private VisitsRepository visitsRepository;
 
-    @Autowired
-    public RegistrationFinder(VisitsRepository visitsRepository) {
-        this.visitsRepository = visitsRepository;
-    }
-
-    private List<VisitDto> mapVisitsToVisitsDto(Set<Visit> visits) {
-        return visits.stream()
-                .map(v -> mapVisitToVisitDto(v))
-                .collect(Collectors.toList());
-    }
-
-    public PatientDto mapPatientToPatientDto(Patient patient) {
-        //List<VisitDto> visits = mapVisitsToVisitsDto(patient.getVisits());
-        return PatientDto.builder()
-                .id(patient.getId())
-                .name(patient.getFirstName())
-                .lastName(patient.getLastName())
-                //.plannedVisits(visits)
-                .build();
-    }
-
-    public DoctorDto mapDoctorToDoctorDto(Doctor doctor) {
-        //List<VisitDto> visit = mapVisitsToVisitsDto(doctor.getVisits());
-        return DoctorDto.builder()
-                .id(doctor.getId())
-                .name(doctor.getFirstName())
-                .lastName(doctor.getLastName())
-                .specialization(doctor.getSpecialization())
-                //.visits(visit)
-                .build();
-    }
-
-    public VisitDto mapVisitToVisitDto(Visit visit) {
-        return VisitDto.builder()
-                .patient(mapPatientToPatientDto(visit.getPatient()))
-                .doctor(mapDoctorToDoctorDto(visit.getDoctor()))
-                .dayOfVisit(visit.getDate())
-                .hourOfVisit(visit.getTime())
-                .build();
-    }
-
-    @Transactional
-    public List<VisitDto> showAllVisits() {
-        return visitsRepository.findAll().stream()
-                .map(v -> mapVisitToVisitDto(v))
-                .collect(Collectors.toList());
-    }
 
 
 }
