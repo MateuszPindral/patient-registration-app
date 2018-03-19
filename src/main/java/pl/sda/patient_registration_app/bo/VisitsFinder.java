@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.sda.patient_registration_app.dto.DoctorDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
+import pl.sda.patient_registration_app.entity.Doctor;
+import pl.sda.patient_registration_app.entity.Visit;
 import pl.sda.patient_registration_app.entity.Visit;
 import pl.sda.patient_registration_app.repository.VisitsRepository;
 
@@ -19,7 +21,6 @@ public class VisitsFinder {
     private VisitsRepository visitsRepository;
     private UtilsService utilsService;
     private VisitsService visitsService;
-    private boolean isFilled = false;
 
     @Autowired
     public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService, VisitsService visitsService){
@@ -31,11 +32,7 @@ public class VisitsFinder {
     @Transactional
     public List<VisitDto> showAllVisits() {
 
-        if(!isFilled){
-
         visitsService.fillDBwithVisits();
-        isFilled = true;
-        }
 
         return visitsRepository.findAll().stream()
                 .map(v -> utilsService.mapVisitToVisitDto(v))
@@ -56,7 +53,7 @@ public class VisitsFinder {
     }
 
     public List<VisitDto> getVisitsByHour(LocalTime time) {
-        List<Visit> foundedByHour = visitsRepository.findByTime(time);
+        List<Visit> foundedByHour = visitsRepository.findByHour(time);
         return foundedByHour.stream()
                 .map(v -> utilsService.mapVisitToVisitDto(v))
                 .collect(Collectors.toList());
