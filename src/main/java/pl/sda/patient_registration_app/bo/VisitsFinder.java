@@ -32,7 +32,7 @@ public class VisitsFinder {
     @Transactional
     public List<VisitDto> showAllVisits() {
 
-        visitsService.fillDBwithVisits();
+        //visitsService.fillDBwithVisits();
 
         return visitsRepository.findAll().stream()
                 .map(v -> utilsService.mapVisitToVisitDto(v))

@@ -25,7 +25,7 @@ public class DoctorsFinder {
 
     @Transactional
     public List<DoctorDto> showAllDoctors() {
-        doctorsService.fillDBwithDoctors();
+        //doctorsService.fillDBwithDoctors();
         return doctorsRepository.findAll().stream()
                 .map(v -> utilsService.mapDoctorToDoctorDto(v))
                 .collect(Collectors.toList());
