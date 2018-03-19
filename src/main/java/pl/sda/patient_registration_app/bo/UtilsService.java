@@ -10,6 +10,8 @@ import pl.sda.patient_registration_app.entity.Patient;
 import pl.sda.patient_registration_app.entity.Visit;
 import pl.sda.patient_registration_app.repository.VisitsRepository;
 
+import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -50,6 +52,14 @@ public class UtilsService {
                 .dayOfVisit(visit.getDate())
                 .hourOfVisit(visit.getTime())
                 .build();
+    }
+
+    public List<LocalTime> getHours(){
+        List<LocalTime> hours = new ArrayList<>();
+        for (int i = 6; i <= 19; i++){
+            hours.add(LocalTime.of(i, 0));
+        }
+        return hours;
     }
 
 }
