@@ -94,6 +94,7 @@ public class DoctorDaysService {
             DoctorDayDto doctorDayDto = DoctorDayDto.builder()
                     .doctorDto(doctorDto)
                     .date(date)
+                    .visits(new ArrayList<>())
                     .build();
             addVisitsToDayVisitList(doctorDayDto);
             //sortByHour(doctorDayDto.getVisits());

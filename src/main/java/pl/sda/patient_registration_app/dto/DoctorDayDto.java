@@ -23,7 +23,7 @@ public class DoctorDayDto {
     //private final List<LocalTime> HOURS = utilsService.getHours();
 
     private DoctorDto doctorDto;
-    private List<VisitDto> visits;
+    private List<VisitDto> visits;// = new ArrayList<>();
     private LocalDate date;
 
     @Autowired
