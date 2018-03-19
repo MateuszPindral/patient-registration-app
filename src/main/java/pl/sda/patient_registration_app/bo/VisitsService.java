@@ -40,7 +40,7 @@ public class VisitsService {
 
     }
 
-    public void fillDBwithVisits() {
+    /*public void fillDBwithVisits() {
 
         Doctor doctor1 = new Doctor();
         Doctor doctor2 = new Doctor();
@@ -71,7 +71,7 @@ public class VisitsService {
         addVisit(LocalDate.of(2018, 6, 10), LocalTime.of(12, 0), doctor3);
 
 
-    }
+    }*/
 
 
 }

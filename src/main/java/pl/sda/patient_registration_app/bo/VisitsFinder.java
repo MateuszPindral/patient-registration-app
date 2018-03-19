@@ -32,7 +32,7 @@ public class VisitsFinder {
     @Transactional
     public List<VisitDto> showAllVisits() {
 
-        visitsService.fillDBwithVisits();
+        //visitsService.fillDBwithVisits();
 
         return visitsRepository.findAll().stream()
                 .map(v -> utilsService.mapVisitToVisitDto(v))
@@ -53,7 +53,7 @@ public class VisitsFinder {
     }
 
     public List<VisitDto> getVisitsByHour(LocalTime time) {
-        List<Visit> foundedByHour = visitsRepository.findByHour(time);
+        List<Visit> foundedByHour = visitsRepository.findByTime(time);
         return foundedByHour.stream()
                 .map(v -> utilsService.mapVisitToVisitDto(v))
                 .collect(Collectors.toList());
