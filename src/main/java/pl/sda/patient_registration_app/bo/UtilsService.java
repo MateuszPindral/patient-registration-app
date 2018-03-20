@@ -21,12 +21,16 @@ public class UtilsService {
 
     public PatientDto mapPatientToPatientDto(Patient patient) {
         //List<VisitDto> visits = mapVisitsToVisitsDto(patient.getVisits());
-        return PatientDto.builder()
-                .id(patient.getId())
-                .name(patient.getFirstName())
-                .lastName(patient.getLastName())
-                //.plannedVisits(visits)
-                .build();
+        if (patient != null) {
+            return PatientDto.builder()
+                    .id(patient.getId())
+                    .name(patient.getFirstName())
+                    .lastName(patient.getLastName())
+                    //.plannedVisits(visits)
+                    .build();
+        } else {
+            return null;
+        }
     }
 
     public DoctorDto mapDoctorToDoctorDto(Doctor doctor) {
@@ -48,7 +52,9 @@ public class UtilsService {
 
     public VisitDto mapVisitToVisitDto(Visit visit) {
         return VisitDto.builder()
+                .id(visit.getId())
                 .doctor(mapDoctorToDoctorDto(visit.getDoctor()))
+                .patient(mapPatientToPatientDto(visit.getPatient()))
                 .dayOfVisit(visit.getDate())
                 .hourOfVisit(visit.getTime())
                 .build();

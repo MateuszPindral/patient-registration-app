@@ -27,6 +27,8 @@ public interface VisitsRepository extends JpaRepository<Visit,Long>{
 
     List<Visit> findByTime(LocalTime time);
 
+
+
     /*@Query("SELECT v FROM Visit v WHERE doctor = :doctor AND date = :date")
     List<Visit> findByDoctorAndDate(@Param("doctor") Doctor doctor, @Param("date") LocalDate date);*/
 }

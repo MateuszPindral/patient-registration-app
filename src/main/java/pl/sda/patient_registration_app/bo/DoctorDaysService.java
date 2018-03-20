@@ -31,6 +31,14 @@ public class DoctorDaysService {
         this.doctorsFinder = doctorsFinder;
     }
 
+    private void addStatusToVisit(VisitDto visitDto) {
+        if (visitDto.getPatient() != null) {
+            visitDto.setStatus(VisitStatusType.UNAVAILABLE);
+        } else {
+            visitDto.setStatus(VisitStatusType.AVAILABLE);
+        }
+    }
+
     public void addVisitsToDayVisitList(DoctorDayDto doctorDayDto) {
         List<Visit> visitsByDate = visitsRepository.findByDate(doctorDayDto.getDate());
         List<VisitDto> visitsByDoctor = visitsByDate.stream()
@@ -39,7 +47,7 @@ public class DoctorDaysService {
                 .collect(Collectors.toList());
 
         for (VisitDto visit : visitsByDoctor) {
-            visit.setStatus(VisitStatusType.AVAILABLE);
+            addStatusToVisit(visit);
         }
 
         doctorDayDto.getVisits().addAll(visitsByDoctor);
@@ -79,18 +87,18 @@ public class DoctorDaysService {
         }
     }
 
-    private List<VisitDto> sortByHour(List<VisitDto> visitsDto){
+    private List<VisitDto> sortByHour(List<VisitDto> visitsDto) {
         return visitsDto.stream()
                 .sorted(VisitDto::compareTo)
                 .collect(Collectors.toList());
     }
 
-    public List<DoctorDayDto> createDayDtoFromDoctorDtoAndDate(LocalDate date){
+    public List<DoctorDayDto> createDayDtoFromDoctorDtoAndDate(LocalDate date) {
 
         List<DoctorDayDto> doctorDaysDto = new ArrayList<>();
         List<DoctorDto> doctorsDto = doctorsFinder.showAllDoctors();
 
-        for (DoctorDto doctorDto : doctorsDto){
+        for (DoctorDto doctorDto : doctorsDto) {
             DoctorDayDto doctorDayDto = DoctorDayDto.builder()
                     .doctorDto(doctorDto)
                     .date(date)

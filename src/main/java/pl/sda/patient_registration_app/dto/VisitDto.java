@@ -23,6 +23,7 @@ public class VisitDto implements Comparable<VisitDto> {
     private DoctorDto doctor;
     private PatientDto patient;
     private VisitStatusType status;
+    private Long id;
 
 
     @Override

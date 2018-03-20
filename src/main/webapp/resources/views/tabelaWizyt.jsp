@@ -10,7 +10,8 @@
 <html>
 <head>
     <title>Tabela wizyt</title>
-    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet">
+</head>
 </head>
 <body>
 <table>
@@ -32,16 +33,16 @@
 
             <c:forEach items="${doctor.visits}" var="visit">
                 <td>
-                   <c:if test="${!visit.status.name.equals(\"Brak\")}">
-
-                       ${visit.status.name}
-                   </c:if>
-
-
-
-
+                    <c:if test="${!visit.status.name.equals(\"Brak\")}">
+                        ${visit.status.name}
+                        <c:if test="${!visit.status.name.equals(\"Zajeta\")}">
+                            <form action="specjalista" method="post">
+                                <input type="hidden" name="visitId" value="${visit.id}">
+                                <input type="submit" value="zarejestruj się">
+                            </form>
+                        </c:if>
+                    </c:if>
                 </td>
-
             </c:forEach>
 
         </tr>

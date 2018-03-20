@@ -4,6 +4,7 @@ package pl.sda.patient_registration_app.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import pl.sda.patient_registration_app.bo.*;
@@ -58,6 +59,14 @@ public class RegistrationController {
         mav.addObject("doctorDayDtoList",
                 doctorDaysService.createDayDtoFromDoctorDtoAndDate(LocalDate.of(2018, 6, 10)));
         mav.addObject("hours", utilsService.getHours());
+        return mav;
+    }
+
+    @PostMapping("/rejestracja/specjalista")/*/rejestracja/specjalista?visitId=3*/
+    public ModelAndView registerPatientToVisit(@RequestParam("visitId") Long visitId){
+        ModelAndView mav = new ModelAndView("podsumowanieRejestracji");
+        visitsService.registerPatient(visitId, Long.valueOf(8)); // 8 to id patienta
+        //mav.addObject("id", visitId);
         return mav;
     }
 }

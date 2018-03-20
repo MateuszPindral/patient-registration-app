@@ -1,7 +1,9 @@
 package pl.sda.patient_registration_app.bo;
 
+import org.postgresql.shaded.com.ongres.scram.common.util.Preconditions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import pl.sda.patient_registration_app.entity.Doctor;
 import pl.sda.patient_registration_app.entity.Patient;
 import pl.sda.patient_registration_app.entity.Visit;
@@ -38,6 +40,14 @@ public class VisitsService {
                 .build();
         visitsRepository.save(visit);
 
+    }
+
+    @Transactional
+    public void registerPatient(Long visitId, Long patientId) {
+        Preconditions.checkNotNull(visitId, "ID wizyty jest nullem");
+        Preconditions.checkNotNull(patientId, "ID pacjenta jest nullem");
+        Visit visit = visitsRepository.findOne(visitId);
+        visit.setPatient(patientsRepository.findOne(patientId));
     }
 
     /*public void fillDBwithVisits() {
