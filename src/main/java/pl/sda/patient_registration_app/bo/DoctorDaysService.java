@@ -34,7 +34,7 @@ public class DoctorDaysService {
     public void addVisitsToDayVisitList(DoctorDayDto doctorDayDto) {
         List<Visit> visitsByDate = visitsRepository.findByDate(doctorDayDto.getDate());
         List<VisitDto> visitsByDoctor = visitsByDate.stream()
-                .filter(v -> v.getDoctor().equals(doctorDayDto.getDoctorDto()))
+                .filter(v -> v.getDoctor().getId().equals(doctorDayDto.getDoctorDto().getId()))
                 .map(v -> utilsService.mapVisitToVisitDto(v))
                 .collect(Collectors.toList());
 
@@ -59,7 +59,7 @@ public class DoctorDaysService {
                     break;
                 }
             }
-            if (isContaining == false) {
+            if (!isContaining) {
                 visitsDto.add(VisitDto.builder()
                         .status(VisitStatusType.NOT_EXIST)
                         .hourOfVisit(LocalTime.of(i, 0))

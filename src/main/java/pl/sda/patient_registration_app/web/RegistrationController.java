@@ -54,6 +54,7 @@ public class RegistrationController {
     @GetMapping("/rejestracja/specjalista")
     public ModelAndView showDoctorsSchedule(@RequestParam("specType") String specName) {
         ModelAndView mav = new ModelAndView("tabelaWizyt");
+        // dodać filtrowanie po specjalizacji
         mav.addObject("doctorDayDtoList",
                 doctorDaysService.createDayDtoFromDoctorDtoAndDate(LocalDate.of(2018, 6, 10)));
         mav.addObject("hours", utilsService.getHours());
