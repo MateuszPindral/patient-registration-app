@@ -59,7 +59,7 @@ public class DoctorDaysService {
                     break;
                 }
             }
-            if (isContaining == false) {
+            if (!isContaining) {
                 visitsDto.add(VisitDto.builder()
                         .status(VisitStatusType.NOT_EXIST)
                         .hourOfVisit(LocalTime.of(i, 0))
