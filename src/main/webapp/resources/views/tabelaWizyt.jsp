@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: DJ
@@ -11,6 +12,33 @@
     <title>Tabela wizyt</title>
 </head>
 <body>
-wfjksdfj
+<table>
+    <thead>
+    <tr>
+        <td>Lekarz/Godzina</td>
+        <c:forEach items="${hours}" var="hours">
+            <td> ${hours}
+            </td>
+        </c:forEach>
+
+    </tr>
+    </thead>
+    <tbody>
+    <c:forEach items="${doctorDayDtoList}" var="doctor">
+        <tr>
+            <td>${doctor.doctorDto.name} ${doctor.doctorDto.lastName}
+            </td>
+
+            <c:forEach items="${doctor.visits}" var="visit">
+                <td>
+                        ${visit.status.name}
+                </td>
+
+            </c:forEach>
+
+        </tr>
+    </c:forEach>
+    </tbody>
+</table>
 </body>
 </html>

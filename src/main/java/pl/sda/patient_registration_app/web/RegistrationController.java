@@ -6,10 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-import pl.sda.patient_registration_app.bo.DoctorDaysService;
-import pl.sda.patient_registration_app.bo.RegistrationFinder;
-import pl.sda.patient_registration_app.bo.RegistrationService;
-import pl.sda.patient_registration_app.bo.VisitsService;
+import pl.sda.patient_registration_app.bo.*;
 import pl.sda.patient_registration_app.type.DocSpecType;
 
 import java.time.LocalDate;
@@ -24,13 +21,15 @@ public class RegistrationController {
     private final RegistrationService registrationService;
     private final VisitsService visitsService;
     private final DoctorDaysService doctorDaysService;
+    private final UtilsService utilsService;
 
     @Autowired
-    public RegistrationController(RegistrationFinder registrationFinder, RegistrationService registrationService, VisitsService visitsService, DoctorDaysService doctorDaysService) {
+    public RegistrationController(RegistrationFinder registrationFinder, RegistrationService registrationService, VisitsService visitsService, DoctorDaysService doctorDaysService, UtilsService utilsService) {
         this.registrationFinder = registrationFinder;
         this.registrationService = registrationService;
         this.visitsService = visitsService;
         this.doctorDaysService = doctorDaysService;
+        this.utilsService = utilsService;
     }
 
     private List<String> convertSpecEnum() { //testy do tego!
@@ -57,6 +56,7 @@ public class RegistrationController {
         ModelAndView mav = new ModelAndView("tabelaWizyt");
         mav.addObject("doctorDayDtoList",
                 doctorDaysService.createDayDtoFromDoctorDtoAndDate(LocalDate.of(2018, 6, 10)));
+        mav.addObject("hours", utilsService.getHours());
         return mav;
     }
 }
