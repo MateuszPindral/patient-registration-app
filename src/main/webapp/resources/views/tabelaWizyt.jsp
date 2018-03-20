@@ -31,7 +31,14 @@
 
             <c:forEach items="${doctor.visits}" var="visit">
                 <td>
-                        ${visit.status.name}
+                   <c:if test="${!visit.status.name.equals(\"Brak\")}">
+
+                       ${visit.status.name}
+                   </c:if>
+
+
+
+
                 </td>
 
             </c:forEach>
