@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>doctors</title>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 </head>
 <body>
 Lista doktorow:
