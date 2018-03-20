@@ -49,5 +49,6 @@
     </c:forEach>
     </tbody>
 </table>
+<input type = "submit" value="Next day">
 </body>
 </html>
