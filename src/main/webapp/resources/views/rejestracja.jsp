@@ -11,11 +11,13 @@
 <html>
 <head>
     <title>Rejestracja</title>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 </head>
 <body>
 
-Specjalizacja:
+<div>
 <form action="rejestracja/specjalista" method="get">
+    <label>Specjalizacja:</label>
     <select name="specType">
         <c:forEach items="${docSpecEnum}" var="spec">
             <option value="${spec}">${spec}</option>
@@ -23,6 +25,7 @@ Specjalizacja:
     </select>
     <input type="submit" value="wybierz">
 </form>
+</div>
 
 <%--<ul>--%>
 <%--<c:forEach items="${visits}" var="visit">--%>

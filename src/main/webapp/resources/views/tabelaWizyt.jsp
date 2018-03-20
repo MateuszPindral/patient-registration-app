@@ -13,7 +13,7 @@
     <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 </head>
 <body>
-<table>
+<table id="visitTable">
     <thead>
     <tr>
         <td>Lekarz/Godzina</td>
