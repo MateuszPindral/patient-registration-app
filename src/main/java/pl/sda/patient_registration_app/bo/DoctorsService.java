@@ -43,7 +43,7 @@ public class DoctorsService {
 
         addDoctor("Mariusz", "Putas", DocSpecType.UROLOGIST);
         addDoctor("Janusz", "Fijut", DocSpecType.UROLOGIST);
-        addDoctor("Roman", "Wusiacz", DocSpecType.UROLOGIST);
+        addDoctor("Sylweriusz", "Psikuta", DocSpecType.UROLOGIST);
         addDoctor("Adam", "Kula", DocSpecType.HEMATOLOGIST);
 
     }
