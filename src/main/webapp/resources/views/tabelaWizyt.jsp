@@ -14,7 +14,7 @@
 </head>
 </head>
 <body>
-<table>
+<table id="visitTable">
     <thead>
     <tr>
         <td>Lekarz/Godzina</td>
@@ -49,5 +49,6 @@
     </c:forEach>
     </tbody>
 </table>
+<input type = "submit" value="Next day">
 </body>
 </html>

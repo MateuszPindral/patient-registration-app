@@ -1,6 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="C" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: Andrzej
@@ -12,19 +11,21 @@
 <html>
 <head>
     <title>Rejestracja</title>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 </head>
 <body>
 
-
-    Specjalizacja:
-    <form action="rejestracja/specjalista" method="get">
-        <select name="specType">
-            <c:forEach items="${docSpecEnum}" var="spec">
-                <option value="${spec}">${spec}</option>
-            </c:forEach>
-        </select>
-        <input type="submit" value="wybierz">
-    </form>
+<div>
+<form action="rejestracja/specjalista" method="get">
+    <label>Specjalizacja:</label>
+    <select name="specType">
+        <c:forEach items="${docSpecEnum}" var="spec">
+            <option value="${spec}">${spec}</option>
+        </c:forEach>
+    </select>
+    <input type="submit" value="wybierz">
+</form>
+</div>
 
 
 </body>
