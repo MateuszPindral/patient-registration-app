@@ -1,34 +1,43 @@
-ul {
-    border-radius: 20px;
-    background-color: #f2f2f2;
-    width: 350px;
-    padding: 20px;
-
-
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
 }
 
-li {
-    background: white;
-    margin: 10px;
-
-
+ li {
+    float: left;
 }
 
-/*thead tr {*/
-/*background-color: grey;*/
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ li a:hover {
+    background-color: #4CAF50;
+}
+
+
+/*ul {*/
+    /*border-radius: 20px;*/
+    /*background-color: #f2f2f2;*/
+    /*width: 350px;*/
+    /*padding: 20px;*/
+
 /*}*/
 
-/*tbody tr {*/
-/*background-color: lightgray;*/
+/*li {*/
+    /*background: white;*/
+    /*margin: 10px;*/
+
 /*}*/
 
-/*table {*/
-/*border-collapse: collapse;*/
-/*}*/
-
-/*table, th, td {*/
-/*border: 1px solid black;*/
-/*}*/
 
 #visitTable {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -48,10 +57,10 @@ li {
     background-color: #4CAF50;
     color: white;
 }
+
 #visitTable tr {
     text-align: center;
 }
-
 
 input[type=text], select {
     width: auto;
