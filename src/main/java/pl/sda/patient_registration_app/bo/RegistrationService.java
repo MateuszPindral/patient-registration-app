@@ -20,4 +20,24 @@ public class RegistrationService {
 
 
 
+
+    PatientsRepository patientsRepository;
+
+    @Autowired
+    public RegistrationService(PatientsRepository patientsRepository) {
+        this.patientsRepository = patientsRepository;
+    }
+
+    public void addPatietnToDB() {
+
+
+        Patient patient = Patient.builder().build();
+        patient.setFirstName("Andrzej");
+        patient.setLastName("Duda");
+        patient.setLogin("dupa");
+        patient.setPassword("dupa");
+
+
+        patientsRepository.save(patient);
+    }
 }
