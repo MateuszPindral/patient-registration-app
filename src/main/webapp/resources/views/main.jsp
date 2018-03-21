@@ -4,7 +4,9 @@
 <html>
 <head>
     <title>Strona główna</title>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 <body>
-strona główna
+<jsp:include page="menu.jsp" />
+Strona główna
 </body>
 </html>
