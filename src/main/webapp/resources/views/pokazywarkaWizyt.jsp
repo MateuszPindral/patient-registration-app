@@ -10,6 +10,8 @@
 <html>
 <head>
     <title>PokazywarkaWizyt</title>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet">
+
 </head>
 <body>
 

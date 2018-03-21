@@ -1,42 +1,33 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    color: white;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    width: 350px;
+    padding: 20px;
+
+
 }
 
 li {
-    float: left;
-}
+    background: white;
+    margin: 10px;
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-li a:hover {
-    background-color: #111;
 }
 
 /*thead tr {*/
-    /*background-color: grey;*/
+/*background-color: grey;*/
 /*}*/
 
 /*tbody tr {*/
-    /*background-color: lightgray;*/
+/*background-color: lightgray;*/
 /*}*/
 
 /*table {*/
-    /*border-collapse: collapse;*/
+/*border-collapse: collapse;*/
 /*}*/
 
 /*table, th, td {*/
-    /*border: 1px solid black;*/
+/*border: 1px solid black;*/
 /*}*/
 
 #visitTable {
@@ -50,13 +41,15 @@ li a:hover {
     padding: 8px;
 }
 
-
 #visitTable th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     background-color: #4CAF50;
     color: white;
+}
+#visitTable tr {
+    text-align: center;
 }
 
 
