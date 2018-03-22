@@ -23,19 +23,21 @@ li a:hover {
     background-color: #4CAF50;
 }
 
-/*ul {*/
-/*border-radius: 20px;*/
-/*background-color: #f2f2f2;*/
-/*width: 350px;*/
-/*padding: 20px;*/
+ul.a {
+    list-style-type: square;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    width: 350px;
+    padding: 20px;
 
-/*}*/
+}
 
-/*li {*/
-/*background: white;*/
-/*margin: 10px;*/
+li.a {
+    color: black;
+    background: white;
+    margin: 10px;
 
-/*}*/
+}
 
 #visitTable {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
