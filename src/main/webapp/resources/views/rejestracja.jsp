@@ -27,13 +27,6 @@
 </form>
 </div>
 
-<%--<ul>--%>
-<%--<c:forEach items="${visits}" var="visit">--%>
-<%--<li>${visit.doctor}</li>--%>
-<%--<li>${visit.dayOfVisit}</li>--%>
-<%--<li>${visit.hourOfVisit}</li>--%>
-<%--</c:forEach>--%>
-<%--</ul>--%>
 
 </body>
 </html>
