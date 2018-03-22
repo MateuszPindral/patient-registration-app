@@ -10,16 +10,19 @@
 <html>
 <head>
     <title>doctors</title>
-    <link href="${pageContext.servletContext.contextPath}/css/app.css" rel="stylesheet"></head>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet">
 </head>
+<jsp:include page="menu.jsp" />
 <body>
-Lista doktorow:
-<ul>
+Lista lekarzy:
+
+<ol class="a">
     <c:forEach items="${doctors}" var="doctor">
-        <li>${doctor.name},
+        <li class="a">${doctor.name},
         ${doctor.lastName},
         ${doctor.specialization}</li>
     </c:forEach>
-</ul>
+</ol>
+
 </body>
 </html>
