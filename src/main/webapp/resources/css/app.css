@@ -1,4 +1,4 @@
-ul {
+ul.m {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,11 +7,11 @@ ul {
     color: white;
 }
 
-li {
+li.m {
     float: left;
 }
 
-li a {
+li a{
     display: block;
     color: white;
     text-align: center;
