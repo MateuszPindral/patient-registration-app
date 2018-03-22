@@ -14,7 +14,7 @@
     <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 </head>
 <body>
-
+<jsp:include page="menu.jsp" />
 <div>
 <form action="rejestracja/specjalista" method="get">
     <label>Specjalizacja:</label>

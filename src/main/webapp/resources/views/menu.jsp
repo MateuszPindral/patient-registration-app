@@ -9,7 +9,8 @@
 
 
 <ul>
+    <li><a href="${pageContext.servletContext.contextPath}/main">Home</a></li>
     <li><a href="${pageContext.servletContext.contextPath}/rejestracja">Rejestracja</a></li>
-    <li><a href="${pageContext.servletContext.contextPath}/pokazywarkaWizyt">Wizyty</a></li>
+    <li><a href="${pageContext.servletContext.contextPath}/">Wizyty</a></li>
     <li><a href="${pageContext.servletContext.contextPath}/doktorzy">Lekarze</a></li>
 </ul>

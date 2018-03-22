@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class NewUserController {
 
-    @GetMapping
+    @GetMapping(value = "/nowyUzytkownik")
     public ModelAndView showNewUserPage() {
 
         ModelAndView mav = new ModelAndView("nowyUzytkownik");
