@@ -3,9 +3,11 @@ package pl.sda.patient_registration_app.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
@@ -22,13 +24,21 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         auth.inMemoryAuthentication().withUser("De").password("Bill").roles("ADMIN", "DBA");
     }
 
+/*    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web
+                .ignoring()
+                .antMatchers("/resources/**");
+    }*/
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        http.authorizeRequests().antMatchers("/resources/**").permitAll();
+
         http.authorizeRequests()
                 .antMatchers("/rejestracja").authenticated()
                 .antMatchers("/tabelaWizyt").authenticated()
                 .antMatchers("/rejestracja/specjalista").authenticated()
-                .antMatchers("/*").permitAll()
                 .and().formLogin()
                 .and().exceptionHandling().accessDeniedPage("/error")
                 .and().csrf().disable();
