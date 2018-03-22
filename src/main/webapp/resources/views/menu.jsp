@@ -11,6 +11,6 @@
 <ul class="m">
     <li class="m"><a href="${pageContext.servletContext.contextPath}/main">Home</a></li>
     <li class="m"><a href="${pageContext.servletContext.contextPath}/rejestracja">Rejestracja</a></li>
-    <li class="m"><a href="${pageContext.servletContext.contextPath}/">Wizyty</a></li>
+    <li class="m"><a href="${pageContext.servletContext.contextPath}/pokazywarkaWizyt">Wizyty</a></li>
     <li class="m"><a href="${pageContext.servletContext.contextPath}/doktorzy">Lekarze</a></li>
 </ul>

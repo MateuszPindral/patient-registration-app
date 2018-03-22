@@ -16,13 +16,13 @@
 <body>
 Lista lekarzy:
 
-<ul class="a">
+<ol class="a">
     <c:forEach items="${doctors}" var="doctor">
         <li class="a">${doctor.name},
         ${doctor.lastName},
         ${doctor.specialization}</li>
     </c:forEach>
-</ul>
+</ol>
 
 </body>
 </html>
