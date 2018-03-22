@@ -24,7 +24,6 @@ li a:hover {
 }
 
 ol.a {
-    list-style-type: square;
     border-radius: 20px;
     background-color: #f2f2f2;
     width: 350px;
