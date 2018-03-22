@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>Rejestracja</title>
-    <link href="${pageContext.servletContext.contextPath}/css/app.css" rel="stylesheet"></head>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 </head>
 <body>
 <jsp:include page="menu.jsp" />
