@@ -17,10 +17,12 @@
 Lista wizyt:
 <ul class="b">
     <c:forEach items="${wizyty}" var="wizyta">
-    <li class="b">${wizyta.dayOfVisit},
-            ${wizyta.hourOfVisit},
-        Dr. ${wizyta.doctor.lastName}</li>
-</c:forEach>
+        <li class="b">${wizyta.dayOfVisit},
+                ${wizyta.hourOfVisit},
+            Dr. ${wizyta.doctor.lastName}</li>
+    </c:forEach>
+
+    User ID = ${userID}
 </ul>
 </body>
 </html>

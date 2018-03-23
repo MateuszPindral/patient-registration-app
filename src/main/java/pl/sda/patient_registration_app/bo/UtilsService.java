@@ -1,14 +1,14 @@
 package pl.sda.patient_registration_app.bo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.sda.patient_registration_app.dto.DoctorDto;
-import pl.sda.patient_registration_app.dto.PatientDto;
-import pl.sda.patient_registration_app.dto.VisitDto;
+import pl.sda.patient_registration_app.dto.*;
 import pl.sda.patient_registration_app.entity.Doctor;
 import pl.sda.patient_registration_app.entity.Patient;
+import pl.sda.patient_registration_app.entity.User;
 import pl.sda.patient_registration_app.entity.Visit;
-import pl.sda.patient_registration_app.repository.VisitsRepository;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -74,4 +74,54 @@ public class UtilsService {
         patient.setId(patientDto.getId());
         return patient;
     }
+
+    public Patient mapNewPatientRegistrationDtoToPatient(NewPatientRegistrationDto newPatientRegistrationDto) {
+
+        Patient patient = new Patient();
+        patient.setFirstName(newPatientRegistrationDto.getFirstName());
+        patient.setLastName(newPatientRegistrationDto.getLastName());
+        patient.setLogin(newPatientRegistrationDto.getLogin());
+        patient.setPassword(newPatientRegistrationDto.getPassword());
+
+
+        return patient;
+    }
+
+    public MyUserPrincipalDto mapUserToMyUserPrincipalDto(User user) {
+
+
+        return MyUserPrincipalDto.builder()
+                .login(user.getLogin())
+                .password(user.getPassword())
+                .id(user.getId()).build();
+    }
+
+    public MyUserPrincipalDto mapPatientToMyUserPrincipal(Patient patient) {
+
+
+        return MyUserPrincipalDto.builder()
+                .login(patient.getLogin())
+                .password(patient.getPassword())
+                .id(patient.getId()).build();
+    }
+
+    public MyUserPrincipalDto mapDoctorToMyUserPrincipal(Doctor doctor) {
+
+
+        return MyUserPrincipalDto.builder()
+                .login(doctor.getLogin())
+                .password(doctor.getPassword())
+                .id(doctor.getId()).build();
+    }
+
+    public Doctor mapDoctorDtoToDoctor(DoctorDto doctorDto) {
+        Doctor doctor = new Doctor();
+        doctor.setId(doctorDto.getId());
+        return doctor;
+    }
+
+
+
+
+
 }

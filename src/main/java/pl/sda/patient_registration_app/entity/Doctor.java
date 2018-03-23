@@ -1,16 +1,14 @@
 package pl.sda.patient_registration_app.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import pl.sda.patient_registration_app.type.DocSpecType;
 
 import javax.persistence.*;
 import java.util.Set;
 
 
-@Data
+@Getter
+@Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
@@ -26,5 +24,8 @@ public class Doctor extends User{
     @Column(name = "specialization")
     @Enumerated(value = EnumType.STRING)
     private DocSpecType specialization;
+
+    @OneToMany(mappedBy = "doctor")
+    private Set<DoctorTimetable> timetables;
 
 }
