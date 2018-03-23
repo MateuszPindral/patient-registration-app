@@ -1,6 +1,7 @@
 package pl.sda.patient_registration_app.bo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Service;
 import pl.sda.patient_registration_app.dto.DoctorDto;
 import pl.sda.patient_registration_app.dto.PatientDto;
@@ -68,4 +69,9 @@ public class UtilsService {
         return hours;
     }
 
+    public Doctor mapDoctorDtoToDoctor(DoctorDto doctorDto) {
+        Doctor doctor = new Doctor();
+        doctor.setId(doctorDto.getId());
+        return doctor;
+    }
 }

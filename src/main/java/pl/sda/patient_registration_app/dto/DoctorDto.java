@@ -20,6 +20,7 @@ public class DoctorDto {
     private String login;
     private String password;
     private List<VisitDto> visits;
+    private List<DoctorTimetableDto> timetables;
 
 
 }
