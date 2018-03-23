@@ -10,7 +10,7 @@
 <html>
 <head>
     <title>Tabela wizyt</title>
-    <link href="${pageContext.servletContext.contextPath}/css/app.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}resources/css/app.css" rel="stylesheet">
 </head>
 </head>
 <jsp:include page="menu.jsp" />

@@ -11,6 +11,6 @@
     <title>Podsumowanie rejestracji</title>
 </head>
 <body>
-asdfsd
+Rejestracja Udana!
 </body>
 </html>
