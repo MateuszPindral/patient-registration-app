@@ -68,4 +68,10 @@ public class UtilsService {
         return hours;
     }
 
+
+    public Patient mapPatientDtoToPatient(PatientDto patientDto) {
+        Patient patient = new Patient();
+        patient.setId(patientDto.getId());
+        return patient;
+    }
 }

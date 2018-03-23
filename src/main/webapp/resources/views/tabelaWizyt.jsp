@@ -13,8 +13,9 @@
     <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet">
 </head>
 </head>
-<jsp:include page="menu.jsp" />
+
 <body>
+<jsp:include page="menu.jsp" />
 <table id="visitTable">
     <thead>
     <tr>
