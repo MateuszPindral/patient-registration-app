@@ -15,7 +15,7 @@
 </head>
 <body>
 <jsp:include page="menu.jsp" />
-<div>
+<div class="a">
 <form action="rejestracja/specjalista" method="get">
     <label>Specjalizacja:</label>
     <select name="specType">
