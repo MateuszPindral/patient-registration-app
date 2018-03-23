@@ -3,6 +3,7 @@ package pl.sda.patient_registration_app.bo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.sda.patient_registration_app.dto.DoctorDto;
+import pl.sda.patient_registration_app.dto.NewPatientRegistrationDto;
 import pl.sda.patient_registration_app.dto.PatientDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
 import pl.sda.patient_registration_app.entity.Doctor;
@@ -60,12 +61,23 @@ public class UtilsService {
                 .build();
     }
 
-    public List<LocalTime> getHours(){
+    public List<LocalTime> getHours() {
         List<LocalTime> hours = new ArrayList<>();
-        for (int i = 6; i <= 19; i++){
+        for (int i = 6; i <= 19; i++) {
             hours.add(LocalTime.of(i, 0));
         }
         return hours;
     }
 
+    public Patient mapNewPatientRegistrationDtoToPatient(NewPatientRegistrationDto newPatientRegistrationDto) {
+
+        Patient patient = new Patient();
+        patient.setFirstName(newPatientRegistrationDto.getFirstName());
+        patient.setLastName(newPatientRegistrationDto.getLastName());
+        patient.setLogin(newPatientRegistrationDto.getLogin());
+        patient.setPassword(newPatientRegistrationDto.getPassword());
+
+
+        return patient;
+    }
 }
