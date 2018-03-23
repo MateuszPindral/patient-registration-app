@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.sda.patient_registration_app.dto.DoctorDayDto;
 import pl.sda.patient_registration_app.dto.DoctorDto;
+import pl.sda.patient_registration_app.dto.RegisterDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
 import pl.sda.patient_registration_app.entity.Visit;
 import pl.sda.patient_registration_app.repository.VisitsRepository;
@@ -22,13 +23,16 @@ public class DoctorDaysService {
     private VisitsRepository visitsRepository;
     private UtilsService utilsService;
     private DoctorsFinder doctorsFinder;
+    private VisitsService visitsService;
 
 
     @Autowired
-    public DoctorDaysService(VisitsRepository visitsRepository, UtilsService utilsService, DoctorsFinder doctorsFinder) {
+    public DoctorDaysService(VisitsRepository visitsRepository, UtilsService utilsService, DoctorsFinder doctorsFinder,
+                             VisitsService visitsService) {
         this.visitsRepository = visitsRepository;
         this.utilsService = utilsService;
         this.doctorsFinder = doctorsFinder;
+        this.visitsService = visitsService;
     }
 
     private void addStatusToVisit(VisitDto visitDto) {
@@ -57,7 +61,6 @@ public class DoctorDaysService {
 
     private void fillListWithNoExistingVisits(List<VisitDto> visitsDto) {
         LocalTime temptime = LocalTime.of(0, 0);
-        List<VisitDto> tempVisits = new ArrayList<>();
         for (int i = 6; i <= 19; i++) {
             temptime = LocalTime.of(i, 0);
             boolean isContaining = false;
@@ -98,11 +101,13 @@ public class DoctorDaysService {
         List<DoctorDayDto> doctorDaysDto = new ArrayList<>();
         List<DoctorDto> doctorsDto = doctorsFinder.showAllDoctors();
 
+        visitsService.createAvailableVisitsByDoctorTimetable(date, doctorsDto);
+
         for (DoctorDto doctorDto : doctorsDto) {
             DoctorDayDto doctorDayDto = DoctorDayDto.builder()
                     .doctorDto(doctorDto)
                     .date(date)
-                    .visits(new ArrayList<>())
+                    .visits(doctorDto.getVisits())
                     .build();
             addVisitsToDayVisitList(doctorDayDto);
             //sortByHour(doctorDayDto.getVisits());
