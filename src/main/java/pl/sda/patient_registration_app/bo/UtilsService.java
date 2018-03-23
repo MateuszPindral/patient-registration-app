@@ -68,6 +68,7 @@ public class UtilsService {
         return hours;
     }
 
+
     public Patient mapNewPatientRegistrationDtoToPatient(NewPatientRegistrationDto newPatientRegistrationDto) {
 
         Patient patient = new Patient();

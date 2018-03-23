@@ -9,8 +9,10 @@
 <html>
 <head>
     <title>Podsumowanie rejestracji</title>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet">
 </head>
 <body>
-asdfsd
+<jsp:include page="menu.jsp" />
+Rejestracja Udana!
 </body>
 </html>
