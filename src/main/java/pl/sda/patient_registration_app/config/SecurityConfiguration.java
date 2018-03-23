@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
@@ -19,26 +20,29 @@ import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+
     @Autowired
-    public void configureGlobalSecurity(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().withUser("Andrzej").password("Duda").roles("USER");
-        auth.inMemoryAuthentication().withUser("Bill").password("Cosby").roles("ADMIN");
-        auth.inMemoryAuthentication().withUser("De").password("Bill").roles("ADMIN", "DBA");
-    }
+    private UserDetailsService userDetailsService;
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth)
+            throws Exception {
+        auth.authenticationProvider(authenticationProvider());
     }
-
 
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {
-        DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
-        authenticationProvider.setUserDetailsService(userDetailsService);
-        authenticationProvider.setPasswordEncoder(passwordEncoder());
-        return authenticationProvider;
+        DaoAuthenticationProvider authProvider
+                = new DaoAuthenticationProvider();
+        authProvider.setUserDetailsService(userDetailsService);
+//        authProvider.setPasswordEncoder(encoder());
+        return authProvider;
     }
+
+//    @Bean
+//    public PasswordEncoder encoder() {
+//        return new BCryptPasswordEncoder(11);
+//    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -46,6 +50,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/rejestracja").authenticated()
                 .antMatchers("/tabelaWizyt").authenticated()
                 .antMatchers("/rejestracja/specjalista").authenticated()
+                .antMatchers("/pokazywarkaWizyt").authenticated()
                 .antMatchers("/*").permitAll()
                 .and().formLogin()
                 .and().exceptionHandling().accessDeniedPage("/error")

@@ -21,6 +21,8 @@ Lista wizyt:
                 ${wizyta.hourOfVisit},
             Dr. ${wizyta.doctor.lastName}</li>
     </c:forEach>
+
+    User ID = ${userID}
 </ul>
 </body>
 </html>
