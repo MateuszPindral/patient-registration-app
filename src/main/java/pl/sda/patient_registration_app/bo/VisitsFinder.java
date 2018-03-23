@@ -3,6 +3,7 @@ package pl.sda.patient_registration_app.bo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.sda.patient_registration_app.dto.DoctorDto;
+import pl.sda.patient_registration_app.dto.MyUserPrincipalDto;
 import pl.sda.patient_registration_app.dto.PatientDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
 import pl.sda.patient_registration_app.entity.Patient;
@@ -25,10 +26,11 @@ public class VisitsFinder {
     private PatientsRepository patientsRepository;
 
     @Autowired
-    public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService, VisitsService visitsService){
+    public VisitsFinder(VisitsRepository visitsRepository, UtilsService utilsService, VisitsService visitsService, PatientsRepository patientsRepository){
         this.visitsRepository = visitsRepository;
         this.utilsService = utilsService;
         this.visitsService = visitsService;
+        this.patientsRepository = patientsRepository;
     }
 
     @Transactional
@@ -79,8 +81,8 @@ public class VisitsFinder {
 //
 //    }
 
-    public List<VisitDto> findVisitsByPatientDto(PatientDto patientDto){
-        List<Visit> foundedVisits = visitsRepository.findByPatient(utilsService.mapPatientDtoToPatient(patientDto));
+    public List<VisitDto> findVisitsByPatientDto(MyUserPrincipalDto myUserPrincipalDto){
+        List<Visit> foundedVisits = visitsRepository.findByPatient(patientsRepository.findOne(myUserPrincipalDto.getId()));
         return foundedVisits.stream()
                 .map(v->utilsService.mapVisitToVisitDto(v))
                 .collect(Collectors.toList());
