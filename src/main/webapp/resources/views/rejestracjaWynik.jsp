@@ -9,11 +9,10 @@
 <html>
 <head>
     <title>Wynik rejestracji</title>
-    <link href="${pageContext.servletContext.contextPath}/css/app.css" rel="stylesheet">
-
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet"></head>
 </head>
 <body>
-
+<jsp:include page="menu.jsp" />
 Flamingi lataja kluczem.
 </body>
 </html>

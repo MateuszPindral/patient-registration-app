@@ -5,11 +5,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import pl.sda.patient_registration_app.bo.*;
 import pl.sda.patient_registration_app.dto.DoctorDto;
+import pl.sda.patient_registration_app.dto.MyUserPrincipalDto;
 import pl.sda.patient_registration_app.dto.RegisterDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
 import pl.sda.patient_registration_app.type.DocSpecType;
@@ -99,7 +101,9 @@ public class RegistrationController {
                 .date(date)
                 .doctorId(doctorId)
                 .build();*/
-        visitsService.registerPatient(registerDto, Long.valueOf(8)); // 8 toTime id patienta
+        MyUserPrincipalDto myUserPrincipalDto = (MyUserPrincipalDto) SecurityContextHolder.getContext()
+                .getAuthentication().getPrincipal();
+        visitsService.registerPatient(registerDto, myUserPrincipalDto.getId());
         //doctorDaysService.createDayDtoFromDoctorDtoAndDate(registerDto.getDate());
         //mav.addObject("id", visitId);
 
