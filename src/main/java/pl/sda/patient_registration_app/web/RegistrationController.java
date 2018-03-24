@@ -80,12 +80,15 @@ public class RegistrationController {
             date = date.plusDays(1);
         }*/
 
+        DocSpecType docSpecType = DocSpecType.findByName(specName);
+
         mav.addObject("doctorDayDtoList",
-                doctorDaysService.createDayDtoFromDoctorDtoAndDate(date));
+                doctorDaysService.createDayDtoFromDoctorDtoAndDate(date, docSpecType));
         mav.addObject("hours", utilsService.getHours());
         mav.addObject("dateOfVisits", date);
         mav.addObject("weekDayName", date.getDayOfWeek().getDisplayName(TextStyle.FULL, Locale.getDefault()));
         mav.addObject("registerDto", new RegisterDto());
+        mav.addObject("specType", specName);
         return mav;
     }
 
@@ -94,7 +97,7 @@ public class RegistrationController {
         ModelAndView mav = new ModelAndView("podsumowanieRejestracji");
         /*DoctorDto doctorDto = new DoctorDto();
         doctorDto.setId(Long.valueOf(5));
-        visitDto.setDoctor(doctorDto);*/ //TODO CASCADE DODAJ
+        visitDto.setDoctor(doctorDto);*/ //TODO CASCADE
         //visitDto.setDayOfVisit(LocalDate.of(2018, 6, 10));
         /*RegisterDto registerDto = RegisterDto.builder()
                 .time(time)
@@ -109,19 +112,4 @@ public class RegistrationController {
 
         return mav;
     }
-
-    /*@GetMapping("rejestracja/nastepnyDzien/{dateOfVisits}")
-    public ModelAndView showTableForNextDay(@PathVariable("dateOfVisits") @DateTimeFormat(pattern = "yyyy-MM-dd")
-                                                    LocalDate date) { // dodać specType w requestParam
-        ModelAndView mav = new ModelAndView("tabelaWizyt");
-        // dodać filtrowanie po specjalizacji
-
-        date = date.plusDays(1);
-
-        mav.addObject("doctorDayDtoList",
-                doctorDaysService.createDayDtoFromDoctorDtoAndDate(date)); //TODO ZDEBUGOWAC PRZEWIJANIE DNI
-        mav.addObject("hours", utilsService.getHours());
-        mav.addObject("dateOfVisits", date);
-        return mav;
-    }*/
 }

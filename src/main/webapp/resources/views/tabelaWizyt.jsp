@@ -75,15 +75,18 @@ Ten harmonogram dotyczy daty: ${dateOfVisits}, ${weekDayName}
 <br><br>
 <form action="specjalista" method="GET">
     <input type="hidden" name="date" value="${dateOfVisits.plusDays(1)}">
+    <input type="hidden" name="specType" value="${specType}">
     <input type="submit" name="nextday" value="następny dzień">
 </form>
 <form action="specjalista" method="GET">
     <input type="hidden" name="date" value="${dateOfVisits.minusDays(1)}">
+    <input type="hidden" name="specType" value="${specType}">
     <input type="submit" name="previousday" value="poprzedni dzień">
 </form>
 <%--<a href="${pageContext.servletContext.contextPath}/rejestracja/nastepnyDzien/${dateOfVisits}">następny dzień</a>--%>
-<form>
+<form action="specjalista" method="GET">
     Wybierz datę wizyty: <input title="date" name="date" type="date" value="${dateOfVisits}">
+    <input type="hidden" name="specType" value="${specType}">
     <input type="submit" value="przejdź do wybranego dnia">
 </form>
 

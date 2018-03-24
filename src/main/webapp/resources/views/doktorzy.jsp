@@ -14,14 +14,16 @@
 </head>
 
 <body>
-<jsp:include page="menu.jsp" />
+<jsp:include page="menu.jsp"/>
 Lista lekarzy:
 
 <ol class="a">
     <c:forEach items="${doctors}" var="doctor">
-        <li class="a">${doctor.name},
-        ${doctor.lastName},
-        ${doctor.specialization}</li>
+        <li class="a">Dr
+                ${doctor.name}
+                ${doctor.lastName},
+                ${doctor.specialization.name}
+        </li>
     </c:forEach>
 </ol>
 
