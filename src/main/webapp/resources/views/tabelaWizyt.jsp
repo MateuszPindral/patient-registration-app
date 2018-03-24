@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<jsp:include page="menu.jsp" />
+<jsp:include page="menu.jsp"/>
 <table id="visitTable">
     <thead>
     <tr>
@@ -82,6 +82,10 @@ Ten harmonogram dotyczy daty: ${dateOfVisits}, ${weekDayName}
     <input type="submit" name="previousday" value="poprzedni dzień">
 </form>
 <%--<a href="${pageContext.servletContext.contextPath}/rejestracja/nastepnyDzien/${dateOfVisits}">następny dzień</a>--%>
+<form>
+    Wybierz datę wizyty: <input title="date" name="date" type="date" value="${dateOfVisits}">
+    <input type="submit" value="przejdź do wybranego dnia">
+</form>
 
 </body>
 </html>
