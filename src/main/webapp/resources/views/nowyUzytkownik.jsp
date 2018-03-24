@@ -17,10 +17,9 @@
 
 <form:form action="nowyUzytkownik/zarejestruj" method="post" modelAttribute="newUser">
     <label>Imie:</label><br>
-    <form:input type="text" path="firstName"/><br>
-
+    <form:input type="text" path="firstName"/>
     <label>Nazwisko:</label><br>
-    <form:input type="text" path="lastName"/><br>
+    <form:input type="text" path="lastName"/>
     <label>E-mail:</label><br>
     <form:input path="email"/><br>
     <label>Login:</label><br>
