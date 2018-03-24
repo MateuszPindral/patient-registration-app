@@ -1,6 +1,7 @@
 package pl.sda.patient_registration_app.web;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -28,7 +29,7 @@ public class NewPatientRegistrationController {
     }
 
     @PostMapping(value = "/nowyUzytkownik/zarejestruj")
-    public ModelAndView postNewUserPage(@ModelAttribute("newUser") NewPatientRegistrationDto newPatientRegistrationDto) {
+    public ModelAndView postNewUserPage(@ModelAttribute("newUser") @Validated NewPatientRegistrationDto newPatientRegistrationDto) {
 
         ModelAndView mav = new ModelAndView("rejestracjaWynik");
 
