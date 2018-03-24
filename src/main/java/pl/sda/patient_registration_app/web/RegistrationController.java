@@ -76,9 +76,9 @@ public class RegistrationController {
         // dodać filtrowanie po specjalizacji
         if (date == null) {
             date = LocalDate.now();
-        } else {
+        } /*else {
             date = date.plusDays(1);
-        }
+        }*/
 
         mav.addObject("doctorDayDtoList",
                 doctorDaysService.createDayDtoFromDoctorDtoAndDate(date));
