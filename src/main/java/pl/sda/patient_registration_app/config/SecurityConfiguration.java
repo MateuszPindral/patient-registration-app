@@ -51,6 +51,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/tabelaWizyt").authenticated()
                 .antMatchers("/rejestracja/specjalista").authenticated()
                 .antMatchers("/pokazywarkaWizyt").authenticated()
+                .antMatchers("/wizytyPacjenta").authenticated()
                 .antMatchers("/*").permitAll()
                 .and().formLogin()
                 .and().exceptionHandling().accessDeniedPage("/error")
