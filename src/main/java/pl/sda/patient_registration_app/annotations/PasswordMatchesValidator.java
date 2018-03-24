@@ -1,6 +1,6 @@
 package pl.sda.patient_registration_app.annotations;
 
-import pl.sda.patient_registration_app.dto.NewUserRegistrationDto;
+import pl.sda.patient_registration_app.dto.NewPatientRegistrationDto;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
@@ -14,7 +14,7 @@ public class PasswordMatchesValidator
 
     @Override
     public boolean isValid(Object o, ConstraintValidatorContext constraintValidatorContext) {
-        NewUserRegistrationDto user = (NewUserRegistrationDto) o;
+        NewPatientRegistrationDto user = (NewPatientRegistrationDto) o;
         return user.getPassword().equals(user.getMatchingPassword());    }
 
 

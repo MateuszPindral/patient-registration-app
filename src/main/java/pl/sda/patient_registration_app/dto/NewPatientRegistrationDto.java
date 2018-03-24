@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 @Builder
 @PasswordMatches
-public class NewUserRegistrationDto {
+public class NewPatientRegistrationDto {
 
     @NotNull
     @NotEmpty

@@ -2,12 +2,11 @@ package pl.sda.patient_registration_app.bo;
 
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import pl.sda.patient_registration_app.annotations.EmailExistsException;
-import pl.sda.patient_registration_app.dto.NewUserRegistrationDto;
+import pl.sda.patient_registration_app.dto.NewPatientRegistrationDto;
 import pl.sda.patient_registration_app.entity.Patient;
-import pl.sda.patient_registration_app.entity.User;
 import pl.sda.patient_registration_app.repository.PatientsRepository;
-import pl.sda.patient_registration_app.repository.UserRepository;
 
 @Service
 public class NewPatientRegistrationService {
@@ -20,26 +19,22 @@ public class NewPatientRegistrationService {
         this.patientsRepository = patientsRepository;
     }
 
-    public Patient saveNewPatientToDB(NewUserRegistrationDto newUserRegistrationDto) throws EmailExistsException {
+    @Transactional
+    public Patient saveNewPatientToDB(NewPatientRegistrationDto newPatientRegistrationDto) throws EmailExistsException {
 
-        if (emailExist(newUserRegistrationDto.getEmail())) {
+        if (emailExist(newPatientRegistrationDto.getEmail())) {
             throw new EmailExistsException(
                     "There is an account with that email adress: "
-                            + newUserRegistrationDto.getEmail());
+                            + newPatientRegistrationDto.getEmail());
         }
 
 
-        Patient patient = utilsService.mapNewPatientRegistrationDtoToPatient(newUserRegistrationDto);
+        Patient patient = utilsService.mapNewPatientRegistrationDtoToPatient(newPatientRegistrationDto);
 
       //  user.setRoles(Arrays.asList("ROLE_USER"));
         return patientsRepository.save(patient);
 
     }
-
-
-
-
-
 
 
     private boolean emailExist(String email) {

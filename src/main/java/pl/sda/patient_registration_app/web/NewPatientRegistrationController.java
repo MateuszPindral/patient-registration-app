@@ -10,7 +10,7 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.ModelAndView;
 import pl.sda.patient_registration_app.annotations.EmailExistsException;
 import pl.sda.patient_registration_app.bo.NewPatientRegistrationService;
-import pl.sda.patient_registration_app.dto.NewUserRegistrationDto;
+import pl.sda.patient_registration_app.dto.NewPatientRegistrationDto;
 import pl.sda.patient_registration_app.entity.Patient;
 
 import javax.validation.Valid;
@@ -28,7 +28,7 @@ public class NewPatientRegistrationController {
     public ModelAndView showNewUserPage() {
 
         ModelAndView mav = new ModelAndView("nowyUzytkownik");
-        mav.addObject("newUser", new NewUserRegistrationDto());
+        mav.addObject("newUser", new NewPatientRegistrationDto());
 
 
         return mav;
@@ -36,7 +36,7 @@ public class NewPatientRegistrationController {
 
     @PostMapping(value = "/nowyUzytkownik/zarejestruj")
     public ModelAndView registerUserAccount(
-            @ModelAttribute("newUser") @Valid NewUserRegistrationDto accountDto,
+            @ModelAttribute("newUser") @Valid NewPatientRegistrationDto accountDto,
             BindingResult result,
             WebRequest request,
             Errors errors) {
@@ -56,7 +56,7 @@ public class NewPatientRegistrationController {
         }
     }
 
-    private Patient createUserAccount(NewUserRegistrationDto accountDto, BindingResult result) {
+    private Patient createUserAccount(NewPatientRegistrationDto accountDto, BindingResult result) {
         Patient registered = null;
         try {
             registered = newPatientRegistrationService.saveNewPatientToDB(accountDto);
@@ -67,7 +67,7 @@ public class NewPatientRegistrationController {
     }
 
 //    @PostMapping(value = "/nowyUzytkownik/zarejestruj")
-////    public ModelAndView postNewUserPage(@ModelAttribute("newUser") @Valid NewUserRegistrationDto newUserRegistrationDto) {
+////    public ModelAndView postNewUserPage(@ModelAttribute("newUser") @Valid NewPatientRegistrationDto newUserRegistrationDto) {
 ////
 ////        ModelAndView mav = new ModelAndView("rejestracjaWynik");
 ////
