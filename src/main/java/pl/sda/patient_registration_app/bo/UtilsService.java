@@ -9,9 +9,11 @@ import pl.sda.patient_registration_app.entity.Doctor;
 import pl.sda.patient_registration_app.entity.Patient;
 import pl.sda.patient_registration_app.entity.User;
 import pl.sda.patient_registration_app.entity.Visit;
+import pl.sda.patient_registration_app.type.DocSpecType;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -40,6 +42,7 @@ public class UtilsService {
                 .name(doctor.getFirstName())
                 .lastName(doctor.getLastName())
                 .specialization(doctor.getSpecialization())
+                .login(doctor.getLogin())
                 //.visits(visit)
                 .build();
     }
@@ -60,9 +63,9 @@ public class UtilsService {
                 .build();
     }
 
-    public List<LocalTime> getHours(){
+    public List<LocalTime> getHours() {
         List<LocalTime> hours = new ArrayList<>();
-        for (int i = 6; i <= 19; i++){
+        for (int i = 6; i <= 19; i++) {
             hours.add(LocalTime.of(i, 0));
         }
         return hours;
@@ -121,7 +124,15 @@ public class UtilsService {
     }
 
 
-
+    public List<String> convertSpecEnum() { //testy do tego!
+        //List<String> afterConvert = new ArrayList<>();
+        List<DocSpecType> docSpecTypes = Arrays.asList(DocSpecType.values());
+        List<String> docSpecNames = docSpecTypes.stream()
+                .map(s -> s.getName())
+                .collect(Collectors.toList());
+        docSpecNames.sort(String::compareTo);
+        return docSpecNames;
+    }
 
 
 }
