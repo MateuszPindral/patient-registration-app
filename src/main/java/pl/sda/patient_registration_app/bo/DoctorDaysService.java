@@ -8,6 +8,7 @@ import pl.sda.patient_registration_app.dto.RegisterDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
 import pl.sda.patient_registration_app.entity.Visit;
 import pl.sda.patient_registration_app.repository.VisitsRepository;
+import pl.sda.patient_registration_app.type.DocSpecType;
 import pl.sda.patient_registration_app.type.VisitStatusType;
 
 import java.time.LocalDate;
@@ -96,10 +97,10 @@ public class DoctorDaysService {
                 .collect(Collectors.toList());
     }
 
-    public List<DoctorDayDto> createDayDtoFromDoctorDtoAndDate(LocalDate date) {
+    public List<DoctorDayDto> createDayDtoFromDoctorDtoAndDate(LocalDate date, DocSpecType docSpecType) {
 
         List<DoctorDayDto> doctorDaysDto = new ArrayList<>();
-        List<DoctorDto> doctorsDto = doctorsFinder.showAllDoctors();
+        List<DoctorDto> doctorsDto = doctorsFinder.findBySpecialization(docSpecType);
 
         visitsService.createAvailableVisitsByDoctorTimetable(date, doctorsDto);
 
