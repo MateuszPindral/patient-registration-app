@@ -17,8 +17,7 @@
 </div>
 <div class="page-text">
     <%--Część odpowiedzialna za wyświetlanie treści strony--%>
-    <img
-            src="${pageContext.request.contextPath}/resources/images/backgroundImage.png.png"/>
+
 </div>
 
 <div class="page-footer">
