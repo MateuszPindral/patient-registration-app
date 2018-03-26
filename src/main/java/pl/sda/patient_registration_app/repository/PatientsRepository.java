@@ -12,6 +12,5 @@ import java.util.List;
 public interface PatientsRepository extends JpaRepository<Patient,Long>{
 
 
-
-
+    Patient findByEmail(String email);
 }

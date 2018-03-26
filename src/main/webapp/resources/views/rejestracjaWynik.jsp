@@ -14,6 +14,6 @@
 </head>
 <body>
 
-Flamingi lataja kluczem.
+Rejestracja udana
 </body>
 </html>

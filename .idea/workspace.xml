@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="patient-registration-app:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list id="6ec11773-e83b-4725-adac-d38e43538aee" name="Revert &quot;Debug filter by hour.&quot;" comment="Revert &quot;Debug filter by hour.&quot;&#10;&#10;This reverts commit e7d5d53" />
+    <list default="true" id="79e49547-3e9c-4ade-8f8c-e7f706febde5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/patient_registration_app_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/patient_registration_app_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_3_0_alpha_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_10_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_10_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_2_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_21.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spockframework_spock_core_1_1_groovy_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_10_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_2_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_2_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/patient-registration-app.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/annotations/EmailExistsException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/annotations/PasswordMatches.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/annotations/PasswordMatchesValidator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/views/bladRejestracji.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/annotations/EmailExistsException.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/annotations/PasswordMatches.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/annotations/PasswordMatchesValidator.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/DoctorDaysFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/DoctorDaysService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/DoctorsFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/DoctorsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/NewPatientRegistrationService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/RegistrationFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/RegistrationService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/TimetablesService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/UtilsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/VisitsFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/bo/VisitsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/config/AppConfiguration.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/config/DatabaseConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/config/MyUserDetailsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/config/SecurityConfiguration.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/config/SpringMvcInitializer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/config/SpringSecurityInitializer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/DoctorDayDto$DoctorDayDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/DoctorDayDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/DoctorDto$DoctorDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/DoctorDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/DoctorTimetableDto$DoctorTimetableDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/DoctorTimetableDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/MyUserPrincipalDto$MyUserPrincipalDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/MyUserPrincipalDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto$NewPatientRegistrationDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/PatientDto$PatientDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/PatientDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/RegisterDto$RegisterDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/RegisterDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/VisitDto$VisitDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/dto/VisitDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/Doctor$DoctorBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/Doctor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/DoctorTimetable$DoctorTimetableBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/DoctorTimetable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/Patient$PatientBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/Patient.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/User.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/Visit$VisitBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/entity/Visit.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/repository/DoctorTimetablesRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/repository/DoctorsRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/repository/PatientsRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/repository/UserRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/repository/VisitsRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/type/DocSpecType.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/type/VisitStatusType.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/web/DoctorsController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/web/ErrorController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/web/MainPageController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/web/NewPatientRegistrationController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/web/PokazywarkaController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/pl/sda/patient_registration_app/web/RegistrationController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/annotations/EmailExistsException.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/annotations/PasswordMatches.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/annotations/PasswordMatchesValidator.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/DoctorDaysFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/DoctorDaysService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/DoctorsFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/DoctorsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/NewPatientRegistrationService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/RegistrationFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/RegistrationService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/TimetablesService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/UtilsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/VisitsFinder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/bo/VisitsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/config/AppConfiguration.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/config/DatabaseConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/config/MyUserDetailsService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/config/SecurityConfiguration.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/config/SpringMvcInitializer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/config/SpringSecurityInitializer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/DoctorDayDto$DoctorDayDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/DoctorDayDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/DoctorDto$DoctorDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/DoctorDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/DoctorTimetableDto$DoctorTimetableDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/DoctorTimetableDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/MyUserPrincipalDto$MyUserPrincipalDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/MyUserPrincipalDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto$NewPatientRegistrationDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/PatientDto$PatientDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/PatientDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/RegisterDto$RegisterDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/RegisterDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/VisitDto$VisitDtoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/dto/VisitDto.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/Doctor$DoctorBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/Doctor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/DoctorTimetable$DoctorTimetableBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/DoctorTimetable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/Patient$PatientBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/Patient.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/User.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/Visit$VisitBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/entity/Visit.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/repository/DoctorTimetablesRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/repository/DoctorsRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/repository/PatientsRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/repository/UserRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/repository/VisitsRepository.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/type/DocSpecType.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/type/VisitStatusType.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/web/DoctorsController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/web/ErrorController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/web/MainPageController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/web/NewPatientRegistrationController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/web/PokazywarkaController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/classes/pl/sda/patient_registration_app/web/RegistrationController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.12.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.6.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.10.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.2.10.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.2.0.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.16.20.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-3.0-alpha-1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/slf4j-simple-1.7.21.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.13.10.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.11.10.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-4.2.2.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.2.2.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.2.2.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-4.2.2.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.2.2.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/WEB-INF/log4j.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/css/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/doktorzy.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/error.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/main.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/menu.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/nowyUzytkownik.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/podsumowanieRejestracji.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/pokazywarkaWizyt.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/rejestracja.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/rejestracjaWynik.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/patient-registration-app-1.0-SNAPSHOT/resources/views/tabelaWizyt.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/patient_registration_app/Hui.class" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/DoctorsService.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/DoctorsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/NewPatientRegistrationService.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/NewPatientRegistrationService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/UtilsService.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/UtilsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/DatabaseConfig.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/DatabaseConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/MyUserPrincipalDto.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/MyUserPrincipalDto.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/entity/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/entity/Patient.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/PatientsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/PatientsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/NewPatientRegistrationController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/NewPatientRegistrationController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/views/nowyUzytkownik.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/resources/views/nowyUzytkownik.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/views/rejestracjaWynik.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/resources/views/rejestracjaWynik.jsp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NewPatientRegistrationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/NewPatientRegistrationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bladRejestracji.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/bladRejestracji.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewPatientRegistrationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/NewPatientRegistrationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/DatabaseConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyUserPrincipalDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/MyUserPrincipalDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rejestracjaWynik.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/rejestracjaWynik.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nowyUzytkownik.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/nowyUzytkownik.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewPatientRegistrationDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Min.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/constraints/Min.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="59" />
+              <folding>
+                <marker date="1521900854080" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1521900854080" expanded="false" signature="152:454" ph="..." />
+                <marker date="1521900854080" expanded="true" signature="456:715" ph="@{...}" />
+                <marker date="1521900854080" expanded="true" signature="930:1133" ph="@{...}" />
+                <marker date="1521900854080" expanded="true" signature="1161:1191" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>context</find>
+      <find>csr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Dev_Mat" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/VisitsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/DoctorsFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/VisitsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/DoctorDaysService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/DoctorDayDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/VisitsFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/type/VisitStatusType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/RegistrationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/DoctorsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/SpringSecurityInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/handler/SuccessLoginHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/ErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/rejestracja.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/NewPatientDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/NewUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/CustomUserDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/CustomUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/podsumowanieRejestracji.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/MyUserPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/tabelaWizyt.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/PokazywarkaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/pokazywarkaWizyt.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/MyUserPrincipalDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/PasswordMatchesValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/PasswordMatches.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/Annotations/PasswordMatches.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/annotations/PasswordMatches.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/DoctorsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/annotations/EmailExistsException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/PatientsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/entity/Patient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/UtilsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/NewUserRegistrationDto.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/rejestracjaWynik.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/NewPatientRegistrationService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/DatabaseConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/nowyUzytkownik.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/NewPatientRegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/views/bladRejestracji.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="patient-registration-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="patient-registration-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="288" />
+    <option name="y" value="-22" />
+    <option name="width" value="663" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patient_registration_app" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patient-registration-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patient-registration-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SearchEverywhereHistoryKey" value="new&#9;FILE&#9;file://C:/Users/Andrzej/IdeaProjects/patient-registration-app/src/main/java/pl/sda/patient_registration_app/dto/NewUserRegistrationDto.java&#10;userRepository&#9;PSI&#9;JAVA://pl.sda.patient_registration_app.bo.NewPatientRegistrationService#userRepository" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrzej\IdeaProjects\patient-registration-app\src\main\webapp" />
+      <recent name="C:\Users\Andrzej\IdeaProjects\patient-registration-app\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pl.sda" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.sda.patient_registration_app.repository" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sda.patient_registration_app.annotations" />
+      <recent name="pl.sda.patient_registration_app.dto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/patient-registration-app/rejestracja" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="patient-registration-app:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/patient-registration-app" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_(1)_patient-registration-app" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50044" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="patient-registration-app:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="patient-registration-app:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/patient-registration-app" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_patient-registration-app" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49921" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="patient-registration-app:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed (1)" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79e49547-3e9c-4ade-8f8c-e7f706febde5" name="Default" comment="" />
+      <created>1521132619245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521132619245</updated>
+      <workItem from="1521132621323" duration="8014000" />
+      <workItem from="1521218247698" duration="6979000" />
+      <workItem from="1521237562853" duration="96000" />
+      <workItem from="1521376746078" duration="13726000" />
+      <workItem from="1521396301671" duration="231000" />
+      <workItem from="1521402835478" duration="3241000" />
+      <workItem from="1521477367160" duration="5240000" />
+      <workItem from="1521563530064" duration="7060000" />
+      <workItem from="1521645866511" duration="333000" />
+      <workItem from="1521650371674" duration="10995000" />
+      <workItem from="1521666108590" duration="751000" />
+      <workItem from="1521735506673" duration="11170000" />
+      <workItem from="1521822992069" duration="8382000" />
+      <workItem from="1521888167807" duration="1470000" />
+      <workItem from="1521892212622" duration="144000" />
+      <workItem from="1521898528015" duration="15435000" />
+      <workItem from="1521919666496" duration="3034000" />
+      <workItem from="1521927638318" duration="614000" />
+      <workItem from="1521928349944" duration="2535000" />
+      <workItem from="1522077684287" duration="4745000" />
+    </task>
+    <task id="LOCAL-00001" summary="Renamed package to pl.sda.patient_registration_app.&#10;Added AppConfiguration class.&#10;Removed web.xml&#10;Added SpringMvcInitializer class.">
+      <created>1521135688068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521135688068</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added DTO classes: Day, Patient, Visit.">
+      <created>1521139813939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521139813939</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added specialization enum.&#10;Added DoctorDto;&#10;Added RegistrationService, RegistrationFinder, RegistrationController.&#10;Created rejestracja.jsp">
+      <created>1521141292302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521141292302</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creared User and Patient entities">
+      <created>1521222617945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521222617945</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed repositories to interfaces. Removed hardoced data.">
+      <created>1521223302876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521223302876</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed repositories to interfaces. Removed hardoced data.">
+      <created>1521389585314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521389585314</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created VisitsFinder and VisitsService">
+      <created>1521391587611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521391587611</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Reorganized services (from registration to visits), added method to fill database with hardcoded visits.">
+      <created>1521393305248</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1521393305248</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'devSJ' of https://github.com/MateuszPindral/patient-registration-app into Dev_Mat&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/pl/sda/patient_registration_app/bo/VisitsFinder.java">
+      <created>1521393755203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521393755203</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge branch 'devSJ' of https://github.com/MateuszPindral/patient-registration-app into Dev_Mat&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/pl/sda/patient_registration_app/bo/VisitsFinder.java">
+      <created>1521393913872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1521393913872</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Removed patient form builder from mapVisitToVisitDto.&#10;Added view to test if visits are properly added to DB.">
+      <created>1521395430125</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1521395430125</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".">
+      <created>1521396501435</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1521396501435</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added isFilled flag to VisitsFinder and DoctorsFinder, so that the database will be filled only once with hardcoded data.">
+      <created>1521404577799</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521404577800</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Revert &quot;Added isFilled flag to VisitsFinder and DoctorsFinder, so that the database will be filled only once with hardcoded data.&quot;&#10;&#10;This reverts commit c183b79">
+      <created>1521477563442</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1521477563442</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Revert &quot;Added isFilled flag to VisitsFinder and DoctorsFinder, so that the database will be filled only once with hardcoded data.&quot;&#10;&#10;This reverts commit c183b79">
+      <created>1521487641230</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1521487641230</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added simple table to view TabelaWizyt.">
+      <created>1521566689226</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1521566689226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Refactored table in view TabelaWizyt">
+      <created>1521567555918</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1521567555918</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added Spring Security. Created nowyUzytkownik view and controller.&#10;Deleted main and pokazywarkaWizyt.">
+      <created>1521659064627</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1521659064627</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge branches 'DevBartGor' and 'MainDevBranch' of https://github.com/MateuszPindral/patient-registration-app into MainDevBranch&#10;&#10;# Conflicts:&#10;#&#9;src/main/webapp/resources/views/main.jsp">
+      <created>1521662514419</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1521662514419</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge branches 'DevBartGor' and 'MainDevBranch' of https://github.com/MateuszPindral/patient-registration-app into MainDevBranch&#10;&#10;# Conflicts:&#10;#&#9;src/main/webapp/resources/views/main.jsp">
+      <created>1521735817420</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1521735817420</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge branch 'MainDevBranch' of https://github.com/MateuszPindral/patient-registration-app into MainDevBranch&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/pl/sda/patient_registration_app/config/SecurityConfiguration.java">
+      <created>1521735899240</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1521735899240</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fixed css links in views.">
+      <created>1521736576200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1521736576200</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Production-ready version. Functional logging, registration for visits and display of avalaible visits.">
+      <created>1521823560686</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1521823560686</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added Custom User and Custom User Details to Spring Security.">
+      <created>1521829660518</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1521829660518</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merged Spring security to MainDevBranch">
+      <created>1521830525715</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1521830525715</updated>
+    </task>
+    <task id="LOCAL-00026" summary="@Validated">
+      <created>1521899961857</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1521899961857</updated>
+    </task>
+    <task id="LOCAL-00027" summary="@Validated">
+      <created>1521913549130</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1521913549130</updated>
+    </task>
+    <task id="LOCAL-00028" summary="@Validated">
+      <created>1521914645719</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1521914645719</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="104195000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5098336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6650327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70424837" sideWeight="0.4924357" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.49016643" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36535552" sideWeight="0.4888889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.295764" sideWeight="0.51111114" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5075643" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6650327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09477124" sideWeight="0.49319214" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70424837" sideWeight="0.4924357" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31467474" sideWeight="0.4888889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.295764" sideWeight="0.51111114" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Renamed package to pl.sda.patient_registration_app.&#10;Added AppConfiguration class.&#10;Removed web.xml&#10;Added SpringMvcInitializer class." />
+    <MESSAGE value="Added DTO classes: Day, Patient, Visit." />
+    <MESSAGE value="Added specialization enum.&#10;Added DoctorDto;&#10;Added RegistrationService, RegistrationFinder, RegistrationController.&#10;Created rejestracja.jsp" />
+    <MESSAGE value="Created MainDevBranch" />
+    <MESSAGE value="Creared User and Patient entities" />
+    <MESSAGE value="Changed repositories to interfaces. Removed hardoced data." />
+    <MESSAGE value="Created VisitsFinder and VisitsService" />
+    <MESSAGE value="Reorganized services (from registration to visits), added method to fill database with hardcoded visits." />
+    <MESSAGE value="Merge branch 'devSJ' of https://github.com/MateuszPindral/patient-registration-app into Dev_Mat&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/pl/sda/patient_registration_app/bo/VisitsFinder.java" />
+    <MESSAGE value="Removed patient form builder from mapVisitToVisitDto.&#10;Added view to test if visits are properly added to DB." />
+    <MESSAGE value="." />
+    <MESSAGE value="Added isFilled flag to VisitsFinder and DoctorsFinder, so that the database will be filled only once with hardcoded data." />
+    <MESSAGE value="Revert &quot;Added isFilled flag to VisitsFinder and DoctorsFinder, so that the database will be filled only once with hardcoded data.&quot;&#10;&#10;This reverts commit c183b79" />
+    <MESSAGE value="Added simple table to view TabelaWizyt." />
+    <MESSAGE value="Refactored table in view TabelaWizyt" />
+    <MESSAGE value="Added Spring Security. Created nowyUzytkownik view and controller.&#10;Deleted main and pokazywarkaWizyt." />
+    <MESSAGE value="Merge branches 'DevBartGor' and 'MainDevBranch' of https://github.com/MateuszPindral/patient-registration-app into MainDevBranch&#10;&#10;# Conflicts:&#10;#&#9;src/main/webapp/resources/views/main.jsp" />
+    <MESSAGE value="Merge branch 'MainDevBranch' of https://github.com/MateuszPindral/patient-registration-app into MainDevBranch&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/pl/sda/patient_registration_app/config/SecurityConfiguration.java" />
+    <MESSAGE value="Fixed css links in views." />
+    <MESSAGE value="Production-ready version. Functional logging, registration for visits and display of avalaible visits." />
+    <MESSAGE value="Added Custom User and Custom User Details to Spring Security." />
+    <MESSAGE value="Merged Spring security to MainDevBranch" />
+    <MESSAGE value="@Validated" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Validated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/DoctorTimetableDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/DoctorsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/DoctorsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/DoctorTimetablesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/VisitsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/DoctorDaysFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/DoctorDaysService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/rejestracja.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/MainPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/SpringMvcInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/UtilsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/podsumowanieRejestracji.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/repository/PatientsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/annotations/EmailExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="454" column="0" lean-forward="false" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/session/SessionManagementFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/AnonymousAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/servletapi/SecurityContextHolderAwareRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/savedrequest/RequestCacheAwareFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="407" column="0" lean-forward="false" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="411" column="0" lean-forward="false" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/context/request/async/WebAsyncManagerIntegrationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/header/HeaderWriterFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/ui/DefaultLoginPageGeneratingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/nowyUzytkownik.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/rejestracjaWynik.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/MyUserPrincipalDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/constraints/Min.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="59" />
+          <folding>
+            <marker date="1521900854080" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1521900854080" expanded="false" signature="152:454" ph="..." />
+            <marker date="1521900854080" expanded="true" signature="456:715" ph="@{...}" />
+            <marker date="1521900854080" expanded="true" signature="930:1133" ph="@{...}" />
+            <marker date="1521900854080" expanded="true" signature="1161:1191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/bo/NewPatientRegistrationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/config/DatabaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/dto/NewPatientRegistrationDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/patient_registration_app/web/NewPatientRegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/views/bladRejestracji.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>patient-registration-app:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>patient-registration-app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
