@@ -13,6 +13,8 @@
 
 </head>
 <body>
+
+
 <div class="page-header">
     <%--Header strony--%>
     <h1>TwojeZdrowie</h1>
@@ -23,7 +25,9 @@
 </div>
 <div class="page-text">
     <%--Część odpowiedzialna za wyświetlanie treści strony--%>
-        <h1>Flamingi lataja kluczem.</h1>
+
+        <jsp:include page="menu.jsp"/>
+        Rejestracja udana
 </div>
 
 <div class="page-footer">

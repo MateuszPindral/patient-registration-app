@@ -1,8 +1,5 @@
 package pl.sda.patient_registration_app.bo;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.sda.patient_registration_app.dto.*;
 import pl.sda.patient_registration_app.entity.Doctor;
@@ -60,9 +57,9 @@ public class UtilsService {
                 .build();
     }
 
-    public List<LocalTime> getHours(){
+    public List<LocalTime> getHours() {
         List<LocalTime> hours = new ArrayList<>();
-        for (int i = 6; i <= 19; i++){
+        for (int i = 6; i <= 19; i++) {
             hours.add(LocalTime.of(i, 0));
         }
         return hours;
@@ -82,7 +79,7 @@ public class UtilsService {
         patient.setLastName(newPatientRegistrationDto.getLastName());
         patient.setLogin(newPatientRegistrationDto.getLogin());
         patient.setPassword(newPatientRegistrationDto.getPassword());
-
+        patient.setEmail(newPatientRegistrationDto.getEmail());
 
         return patient;
     }
@@ -119,9 +116,6 @@ public class UtilsService {
         doctor.setId(doctorDto.getId());
         return doctor;
     }
-
-
-
 
 
 }

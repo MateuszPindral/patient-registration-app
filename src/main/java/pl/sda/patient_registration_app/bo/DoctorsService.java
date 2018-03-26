@@ -39,14 +39,7 @@ public class DoctorsService {
 
     }
 
-    public void fillDBwithDoctors() {
 
-        addDoctor("Mariusz", "Putas", DocSpecType.UROLOGIST);
-        addDoctor("Janusz", "Fijut", DocSpecType.UROLOGIST);
-        addDoctor("Sylweriusz", "Psikuta", DocSpecType.UROLOGIST);
-        addDoctor("Adam", "Kula", DocSpecType.HEMATOLOGIST);
-
-    }
 
 
 }

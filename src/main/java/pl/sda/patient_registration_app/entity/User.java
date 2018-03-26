@@ -16,7 +16,7 @@ import javax.persistence.*;
 
 public class User {
 
-    @Column(name = "login", nullable = false, unique = true)
+    @Column(name = "login")
     private String login;
 
     @Column(name = "password")
@@ -29,7 +29,7 @@ public class User {
     private String lastName;
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
 
