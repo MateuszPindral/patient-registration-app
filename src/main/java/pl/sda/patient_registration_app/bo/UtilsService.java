@@ -66,6 +66,12 @@ public class UtilsService {
     }
 
 
+    public Patient mapPatientDtoToPatient(PatientDto patientDto) {
+        Patient patient = new Patient();
+        patient.setId(patientDto.getId());
+        return patient;
+    }
+
     public Patient mapNewPatientRegistrationDtoToPatient(NewPatientRegistrationDto newPatientRegistrationDto) {
 
         Patient patient = new Patient();

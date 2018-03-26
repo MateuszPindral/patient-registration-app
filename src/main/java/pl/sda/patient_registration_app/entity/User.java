@@ -29,7 +29,7 @@ public class User {
     private String lastName;
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
 

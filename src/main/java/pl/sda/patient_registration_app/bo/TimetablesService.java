@@ -33,26 +33,26 @@ public class TimetablesService {
                     .doctor(doctor)
                     .build());
             timetablesRepository.save(DoctorTimetable.builder()
-                    .fromTime(LocalTime.of(7, 0))
+                    .fromTime(LocalTime.of(9, 0))
                     .toTime(LocalTime.of(13, 0))
                     .dayOfWeek(DayOfWeek.TUESDAY)
                     .doctor(doctor)
                     .build());
             timetablesRepository.save(DoctorTimetable.builder()
-                    .fromTime(LocalTime.of(7, 0))
-                    .toTime(LocalTime.of(13, 0))
+                    .fromTime(LocalTime.of(10, 0))
+                    .toTime(LocalTime.of(15, 0))
                     .dayOfWeek(DayOfWeek.WEDNESDAY)
                     .doctor(doctor)
                     .build());
             timetablesRepository.save(DoctorTimetable.builder()
-                    .fromTime(LocalTime.of(7, 0))
-                    .toTime(LocalTime.of(13, 0))
+                    .fromTime(LocalTime.of(6, 0))
+                    .toTime(LocalTime.of(14, 0))
                     .dayOfWeek(DayOfWeek.THURSDAY)
                     .doctor(doctor)
                     .build());
             timetablesRepository.save(DoctorTimetable.builder()
-                    .fromTime(LocalTime.of(7, 0))
-                    .toTime(LocalTime.of(13, 0))
+                    .fromTime(LocalTime.of(10, 0))
+                    .toTime(LocalTime.of(18, 0))
                     .dayOfWeek(DayOfWeek.FRIDAY)
                     .doctor(doctor)
                     .build());

@@ -5,11 +5,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import pl.sda.patient_registration_app.bo.*;
 import pl.sda.patient_registration_app.dto.DoctorDto;
+import pl.sda.patient_registration_app.dto.MyUserPrincipalDto;
 import pl.sda.patient_registration_app.dto.RegisterDto;
 import pl.sda.patient_registration_app.dto.VisitDto;
 import pl.sda.patient_registration_app.type.DocSpecType;
@@ -74,16 +76,19 @@ public class RegistrationController {
         // dodać filtrowanie po specjalizacji
         if (date == null) {
             date = LocalDate.now();
-        } else {
+        } /*else {
             date = date.plusDays(1);
-        }
+        }*/
+
+        DocSpecType docSpecType = DocSpecType.findByName(specName);
 
         mav.addObject("doctorDayDtoList",
-                doctorDaysService.createDayDtoFromDoctorDtoAndDate(date));
+                doctorDaysService.createDayDtoFromDoctorDtoAndDate(date, docSpecType));
         mav.addObject("hours", utilsService.getHours());
         mav.addObject("dateOfVisits", date);
         mav.addObject("weekDayName", date.getDayOfWeek().getDisplayName(TextStyle.FULL, Locale.getDefault()));
         mav.addObject("registerDto", new RegisterDto());
+        mav.addObject("specType", specName);
         return mav;
     }
 
@@ -92,32 +97,19 @@ public class RegistrationController {
         ModelAndView mav = new ModelAndView("podsumowanieRejestracji");
         /*DoctorDto doctorDto = new DoctorDto();
         doctorDto.setId(Long.valueOf(5));
-        visitDto.setDoctor(doctorDto);*/ //TODO CASCADE DODAJ
+        visitDto.setDoctor(doctorDto);*/ //TODO CASCADE
         //visitDto.setDayOfVisit(LocalDate.of(2018, 6, 10));
         /*RegisterDto registerDto = RegisterDto.builder()
                 .time(time)
                 .date(date)
                 .doctorId(doctorId)
                 .build();*/
-        visitsService.registerPatient(registerDto, Long.valueOf(8)); // 8 toTime id patienta
+        MyUserPrincipalDto myUserPrincipalDto = (MyUserPrincipalDto) SecurityContextHolder.getContext()
+                .getAuthentication().getPrincipal();
+        visitsService.registerPatient(registerDto, myUserPrincipalDto.getId());
         //doctorDaysService.createDayDtoFromDoctorDtoAndDate(registerDto.getDate());
         //mav.addObject("id", visitId);
 
         return mav;
     }
-
-    /*@GetMapping("rejestracja/nastepnyDzien/{dateOfVisits}")
-    public ModelAndView showTableForNextDay(@PathVariable("dateOfVisits") @DateTimeFormat(pattern = "yyyy-MM-dd")
-                                                    LocalDate date) { // dodać specType w requestParam
-        ModelAndView mav = new ModelAndView("tabelaWizyt");
-        // dodać filtrowanie po specjalizacji
-
-        date = date.plusDays(1);
-
-        mav.addObject("doctorDayDtoList",
-                doctorDaysService.createDayDtoFromDoctorDtoAndDate(date)); //TODO ZDEBUGOWAC PRZEWIJANIE DNI
-        mav.addObject("hours", utilsService.getHours());
-        mav.addObject("dateOfVisits", date);
-        return mav;
-    }*/
 }

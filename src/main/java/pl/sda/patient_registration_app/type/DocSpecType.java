@@ -1,5 +1,7 @@
 package pl.sda.patient_registration_app.type;
 
+import java.util.Arrays;
+
 public enum DocSpecType {
 
     GYNECOLOGIST("ginekolog"),
@@ -15,5 +17,12 @@ public enum DocSpecType {
 
     public String getName() {
         return name;
+    }
+
+    public static DocSpecType findByName(String name){
+        DocSpecType[] values = DocSpecType.values();
+        return Arrays.asList(values).stream()
+                .filter(t -> t.getName().equals(name))
+                .findFirst().get();
     }
 }
