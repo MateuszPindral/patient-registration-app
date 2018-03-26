@@ -54,6 +54,7 @@ li.b {
 
 #visitTable {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    position: static;
     border-collapse: collapse;
     width: 100%;
 }
@@ -132,6 +133,7 @@ div.page-text {
     grid-template-columns: auto;
     padding: 100px;
     background-color: white;
+
 }
 
 div.page-footer {

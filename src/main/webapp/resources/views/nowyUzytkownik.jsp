@@ -14,23 +14,37 @@
 </head>
 </head>
 <body>
+<div class="page-header">
+    <%--Header strony--%>
+    <h1>TwojeZdrowie</h1>
+</div>
 
-<form:form action="nowyUzytkownik/zarejestruj" method="post" modelAttribute="newUser">
-    <label>Imie:</label><br>
-    <form:input type="text" path="firstName"/>
-    <label>Nazwisko:</label><br>
-    <form:input type="text" path="lastName"/>
-    <label>E-mail:</label><br>
-    <form:input path="email"/><br>
-    <label>Login:</label><br>
-    <form:input path="login"/><br>
+<div class="page-menu">
+    <jsp:include page="menu.jsp"/>
+</div>
+<div class="page-text">
+    <%--Część odpowiedzialna za wyświetlanie treści strony--%>
+    <form:form action="nowyUzytkownik/zarejestruj" method="post" modelAttribute="newUser">
+        <label>Imie:</label><br>
+        <form:input type="text" path="firstName"/><br>
+        <label>Nazwisko:</label><br>
+        <form:input type="text" path="lastName"/><br>
+        <label>E-mail:</label><br>
+        <form:input path="email"/><br>
+        <label>Login:</label><br>
+        <form:input path="login"/><br>
 
-    <label>Haslo:</label><br>
-    <form:input type="password" path="password"/><br>
-    <input type="submit" value="Wyślij"><br>
+        <label>Haslo:</label><br>
+        <form:input type="password" path="password"/><br>
+        <input type="submit" value="Wyślij"><br>
 
-</form:form>
+    </form:form>
+</div>
 
+<div class="page-footer">
+    <%--stopka--%>
+    <footer>Copyright © 2018 Design GangOfThree</footer>
+</div>
 
 </body>
 </html>

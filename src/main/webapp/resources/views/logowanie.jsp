@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Logowanie</title>
+    <link href="${pageContext.servletContext.contextPath}/resources/css/app.css" rel="stylesheet">
     <link href="${pageContext.servletContext.contextPath}/resources/css/loginForm.css" rel="stylesheet">
 
 </head>
